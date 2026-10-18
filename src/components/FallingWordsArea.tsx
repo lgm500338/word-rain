@@ -54,7 +54,7 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
     <div className="relative w-full h-full overflow-hidden select-none">
       
       {/* Danger Line / Bottom Shield */}
-      <div className="absolute bottom-[72px] left-0 right-0 h-1 bg-gradient-to-r from-rose-500/0 via-rose-500/45 to-rose-500/0 shadow-[0_0_15px_rgba(244,63,94,0.6)] pointer-events-none">
+      <div className="absolute top-[95%] left-0 right-0 h-1 bg-gradient-to-r from-rose-500/0 via-rose-500/45 to-rose-500/0 shadow-[0_0_15px_rgba(244,63,94,0.6)] pointer-events-none">
         <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-rose-950/85 border border-rose-500/35 text-[10px] text-rose-200 font-bold uppercase tracking-widest backdrop-blur-sm">
           방어선 (DEFENSE LINE)
         </div>
@@ -62,8 +62,8 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
 
       {/* Falling Word Capsules */}
       {words.map((word) => {
-        const isDanger = word.y > 68;
-        const isCritical = word.y > 80;
+        const isDanger = word.y > 75;
+        const isCritical = word.y > 86;
         const isDraggingThis = draggingId === word.id;
 
         const isBeingTargeted =
@@ -85,13 +85,13 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
               dragWandCount > 0 ? 'pointer-events-auto cursor-grab active:cursor-grabbing' : 'pointer-events-none'
             } ${isDraggingThis ? 'z-50 scale-110' : 'transition-all duration-75'}`}
             style={{
-              left: `${word.x}%`,
+              left: `clamp(64px, ${word.x}%, calc(100% - 64px))`,
               top: `${word.y}%`,
-              transform: `translate(-50%, ${isDraggingThis ? dragOffsetY : 0}px)`,
+              transform: `translate(-50%, calc(-100% + ${isDraggingThis ? dragOffsetY : 0}px))`,
             }}
           >
             <div
-              className={`group relative px-4 py-2.5 rounded-2xl flex flex-col items-center justify-center transition-all duration-150 backdrop-blur-md shadow-xl ${
+              className={`group relative px-4 py-2.5 rounded-2xl whitespace-nowrap flex flex-col items-center justify-center transition-all duration-150 backdrop-blur-md shadow-xl ${
                 isDraggingThis
                   ? 'bg-amber-500/90 border-2 border-yellow-200 text-slate-950 shadow-[0_0_25px_rgba(251,191,36,0.9)]'
                   : isCritical

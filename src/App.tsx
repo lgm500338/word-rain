@@ -352,7 +352,7 @@ export default function App() {
         for (const word of prevWords) {
           const newY = word.y + word.speed;
 
-          if (newY >= 88) {
+          if (newY >= 95) {
             lostLivesCount++;
           } else {
             nextWords.push({ ...word, y: newY });

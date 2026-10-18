@@ -104,16 +104,20 @@ export function spawnNextWord(
   const wordId = 'word_' + Math.random().toString(36).substring(2, 9);
   const color = PALETTE[Math.floor(Math.random() * PALETTE.length)];
 
-  // Avoid horizontal overlap
-  const usedXPositions = existingWords.map(w => w.x);
-  let chosenX = 12 + Math.random() * 72;
-  for (let attempt = 0; attempt < 6; attempt++) {
-    const candidateX = 12 + Math.random() * 72;
-    const isTooClose = usedXPositions.some(x => Math.abs(x - candidateX) < 13);
-    if (!isTooClose) {
+  // 겹치지 않게: 아직 위쪽에 있는 카드들과 가장 멀리 떨어진 가로 위치를 고름
+  const upperXPositions = existingWords.filter(w => w.y < 55).map(w => w.x);
+  let chosenX = 15 + Math.random() * 70;
+  let bestGap = -1;
+  for (let attempt = 0; attempt < 16; attempt++) {
+    const candidateX = 15 + Math.random() * 70;
+    const gap = upperXPositions.length
+      ? Math.min(...upperXPositions.map(x => Math.abs(x - candidateX)))
+      : 100;
+    if (gap > bestGap) {
+      bestGap = gap;
       chosenX = candidateX;
-      break;
     }
+    if (gap >= 35) break;
   }
 
   const shouldSpawnSentence = Math.random() < config.sentenceProbability;
