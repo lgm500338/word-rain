@@ -81,13 +81,14 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
                 ? '급할 땐 마우스로 잡고 아래로 드래그하여 즉시 패스! (드래그권 1개 소모)'
                 : undefined
             }
-            className={`absolute transform -translate-x-1/2 will-change-transform ${
+            className={`absolute will-change-transform ${
               dragWandCount > 0 ? 'pointer-events-auto cursor-grab active:cursor-grabbing' : 'pointer-events-none'
             } ${isDraggingThis ? 'z-50 scale-110' : 'transition-all duration-75'}`}
             style={{
-              left: `clamp(64px, ${word.x}%, calc(100% - 64px))`,
-              top: `${word.y}%`,
-              transform: `translate(-50%, calc(-100% + ${isDraggingThis ? dragOffsetY : 0}px))`,
+              left: `clamp(72px, ${word.x}%, calc(100% - 72px))`,
+              top: `${Math.max(0, word.y)}%`,
+              // 처음엔 카드 위쪽이 화면 맨 위에, 방어선(95%)에서는 카드 아래쪽이 방어선에 닿도록
+              transform: `translate(-50%, calc(${-(Math.min(95, Math.max(0, word.y)) / 95) * 100}% + ${isDraggingThis ? dragOffsetY : 0}px))`,
             }}
           >
             <div

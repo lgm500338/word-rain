@@ -131,8 +131,8 @@ export const TypingInput: React.FC<TypingInputProps> = ({
           </div>
         </form>
 
-        {/* 3 Signature Power-Up Items Bar */}
-        <div className="flex items-center gap-2 shrink-0">
+        {/* 3 Signature Power-Up Items Bar (압축 모드: 입력창 위 오른쪽에 세로로) */}
+        <div className={compact ? 'absolute right-2 bottom-full mb-2 flex flex-col gap-1.5' : 'flex items-center gap-2 shrink-0'}>
           {/* Undo / Push Up */}
           <button
             type="button"
