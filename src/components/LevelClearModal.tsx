@@ -39,6 +39,10 @@ export const LevelClearModal: React.FC<LevelClearModalProps> = ({
   const [praise, setPraise] = useState(PRAISE_LIST[0]);
   const [admireViewOnly, setAdmireViewOnly] = useState(false);
   const nextAtmos = getAtmosphereForLevel(stats.level + 1);
+  const totalCount = stats.levelWordsTarget;
+  const missedCount = stats.levelWordsMissed || 0;
+  const hitCount = Math.max(0, totalCount - missedCount);
+  const isPerfect = missedCount === 0;
 
   useEffect(() => {
     if (isOpen) {
@@ -183,9 +187,14 @@ export const LevelClearModal: React.FC<LevelClearModalProps> = ({
               🎉 LEVEL {stats.level} CLEAR! 🎉
             </div>
             <h1 className="text-3xl sm:text-4xl font-black text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.85)] tracking-tight">
-              {language === 'ko' ? `${praise.ko} (${praise.en})` : `${praise.en} (${praise.ko})`}
+              {isPerfect
+                ? (language === 'ko' ? `${praise.ko} (${praise.en})` : `${praise.en} (${praise.ko})`)
+                : (language === 'ko' ? `${hitCount}개 맞혔어요!` : `${hitCount} words cleared!`)}
             </h1>
             <div className="flex flex-wrap items-center justify-center gap-1.5 mt-1.5">
+              <span className={`px-3 py-0.5 rounded-full font-black text-xs shadow ${isPerfect ? 'bg-cyan-400 text-slate-950' : 'bg-slate-950/80 border border-white/30 text-white'}`}>
+                {language === 'ko' ? `${totalCount}개 중 ${hitCount}개` : `${hitCount} / ${totalCount}`}
+              </span>
               <span className="px-3 py-0.5 rounded-full bg-slate-950/80 border border-amber-400/50 text-amber-300 font-black text-xs shadow">
                 누적 점수: {stats.score.toLocaleString()} P
               </span>
@@ -330,7 +339,7 @@ export const LevelClearModal: React.FC<LevelClearModalProps> = ({
         /* Floating button when admiring crystal-clear background */
         <div className="mt-auto mb-6 z-20 flex flex-col items-center gap-3">
           <div className="px-5 py-2 rounded-2xl bg-slate-950/75 border border-white/20 text-white text-center shadow-xl backdrop-blur-sm">
-            <div className="text-lg font-black text-amber-300">{praise.ko} ({praise.en})</div>
+            <div className="text-lg font-black text-amber-300">{isPerfect ? `${praise.ko} (${praise.en})` : `${totalCount}개 중 ${hitCount}개 맞혔어요!`}</div>
           </div>
           <div className="flex flex-col items-center gap-1.5">
             <button

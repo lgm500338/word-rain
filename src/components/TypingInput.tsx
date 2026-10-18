@@ -16,6 +16,7 @@ interface TypingInputProps {
   onUseWandClick: () => void;
   onUseUndoClick: () => void;
   onUseShuffleClick: () => void;
+  compact?: boolean; // 키보드가 올라왔을 때 얇은 한 줄 모드
 }
 
 export const TypingInput: React.FC<TypingInputProps> = ({
@@ -30,6 +31,7 @@ export const TypingInput: React.FC<TypingInputProps> = ({
   onUseWandClick,
   onUseUndoClick,
   onUseShuffleClick,
+  compact = false,
 }) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -57,8 +59,11 @@ export const TypingInput: React.FC<TypingInputProps> = ({
     }
   };
 
+  // 아이템·입력 버튼을 눌러도 키보드가 내려가지 않게
+  const keepFocus = (e: React.PointerEvent) => e.preventDefault();
+
   return (
-    <div className="relative w-full max-w-3xl mx-auto px-4 z-40 select-none">
+    <div className={`relative w-full max-w-3xl mx-auto z-40 select-none ${compact ? 'px-2' : 'px-4'}`}>
       
       {/* FAILED Profanity / Restricted Word Alert */}
       {failedAlert && (
@@ -82,11 +87,11 @@ export const TypingInput: React.FC<TypingInputProps> = ({
         </div>
       )}
 
-      <div className="flex flex-col sm:flex-row items-center gap-2.5">
+      <div className={compact ? 'flex flex-row items-center gap-1.5' : 'flex flex-col sm:flex-row items-center gap-2.5'}>
         {/* Input Form */}
         <form onSubmit={handleFormSubmit} className="relative flex-1 w-full">
           <div
-            className={`glass-panel rounded-2xl p-1.5 sm:p-2 flex items-center gap-2 border transition-all shadow-2xl backdrop-blur-2xl ${
+            className={`glass-panel rounded-2xl ${compact ? 'p-1' : 'p-1.5 sm:p-2'} flex items-center gap-2 border transition-all shadow-2xl backdrop-blur-2xl ${
               failedAlert
                 ? 'border-rose-500 ring-2 ring-rose-500/70 bg-rose-950/40'
                 : 'border-white/20 focus-within:ring-2 focus-within:ring-cyan-400 focus-within:border-cyan-400'
@@ -100,11 +105,13 @@ export const TypingInput: React.FC<TypingInputProps> = ({
               onChange={(e) => onChange(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder={
-                language === 'ko'
+                compact
+                  ? (language === 'ko' ? '단어 입력' : 'Type here')
+                  : language === 'ko'
                   ? '초성이나 문장 단어를 치거나, 급할 땐 단어를 아래로 드래그하세요!'
                   : 'Type matching word or drag falling word down to pass!'
               }
-              className="w-full bg-transparent px-3 py-2 text-base sm:text-lg font-bold text-white placeholder-slate-400 outline-none"
+              className={`w-full bg-transparent px-3 ${compact ? 'py-1' : 'py-2'} text-base sm:text-lg font-bold text-white placeholder-slate-400 outline-none`}
               autoFocus
               autoComplete="off"
               autoCorrect="off"
@@ -114,8 +121,9 @@ export const TypingInput: React.FC<TypingInputProps> = ({
             {/* Submit Button */}
             <button
               type="submit"
+              onPointerDown={keepFocus}
               disabled={!value.trim() || !isPlaying}
-              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 disabled:opacity-30 disabled:pointer-events-none text-white font-bold text-xs shadow-md shadow-cyan-500/30 transition-all active:scale-95 cursor-pointer shrink-0"
+              className={`flex items-center gap-1.5 ${compact ? 'px-3 py-1.5' : 'px-4 py-2'} rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 disabled:opacity-30 disabled:pointer-events-none text-white font-bold text-xs shadow-md shadow-cyan-500/30 transition-all active:scale-95 cursor-pointer shrink-0`}
             >
               <span className="hidden sm:inline">입력</span>
               <CornerDownLeft className="w-4 h-4" />
@@ -128,46 +136,52 @@ export const TypingInput: React.FC<TypingInputProps> = ({
           {/* Undo / Push Up */}
           <button
             type="button"
+            onPointerDown={keepFocus}
             onClick={onUseUndoClick}
             disabled={inventory.undoSlow <= 0 || !isPlaying}
             title="되돌리기권: 떨어진 단어들을 위로 되돌려 올립니다"
-            className="relative group px-2.5 py-1.5 rounded-2xl glass-panel border border-white/20 hover:border-amber-400/60 disabled:opacity-40 flex items-center gap-1.5 cursor-pointer transition-all active:scale-95"
+            className={`relative group ${compact ? 'p-1 rounded-xl' : 'px-2.5 py-1.5 rounded-2xl'} glass-panel border border-white/20 hover:border-amber-400/60 disabled:opacity-40 flex items-center gap-1.5 cursor-pointer transition-all active:scale-95`}
           >
-            <UndoArrowIcon className="w-7 h-7" />
-            <div className="text-left">
+            <UndoArrowIcon className={compact ? "w-6 h-6" : "w-7 h-7"} />
+            {!compact && <div className="text-left">
               <div className="text-[9px] text-slate-300 font-bold leading-none">되돌리기</div>
               <div className="text-xs font-black text-amber-300 leading-tight">x{inventory.undoSlow}</div>
-            </div>
+            </div>}
+            {compact && <span className="absolute -top-1 -right-1 min-w-4 h-4 px-1 rounded-full bg-amber-400 text-slate-950 text-[9px] font-black flex items-center justify-center">{inventory.undoSlow}</span>}
           </button>
 
           {/* Drag Pass Wand */}
           <button
             type="button"
+            onPointerDown={keepFocus}
             onClick={onUseWandClick}
             disabled={inventory.dragWand <= 0 || !isPlaying}
             title="드래그 패스권: 단어를 아래로 드래그하거나 이 버튼을 눌러 즉시 패스합니다"
-            className="relative group px-2.5 py-1.5 rounded-2xl glass-panel border border-amber-400/40 hover:border-amber-300 disabled:opacity-40 flex items-center gap-1.5 cursor-pointer transition-all active:scale-95 shadow-lg shadow-amber-500/10"
+            className={`relative group ${compact ? 'p-1 rounded-xl' : 'px-2.5 py-1.5 rounded-2xl'} glass-panel border border-amber-400/40 hover:border-amber-300 disabled:opacity-40 flex items-center gap-1.5 cursor-pointer transition-all active:scale-95 shadow-lg shadow-amber-500/10`}
           >
-            <MagicWandIcon className="w-7 h-7" />
-            <div className="text-left">
+            <MagicWandIcon className={compact ? "w-6 h-6" : "w-7 h-7"} />
+            {!compact && <div className="text-left">
               <div className="text-[9px] text-amber-200 font-bold leading-none">드래그권</div>
               <div className="text-xs font-black text-amber-300 leading-tight">x{inventory.dragWand}</div>
-            </div>
+            </div>}
+            {compact && <span className="absolute -top-1 -right-1 min-w-4 h-4 px-1 rounded-full bg-amber-400 text-slate-950 text-[9px] font-black flex items-center justify-center">{inventory.dragWand}</span>}
           </button>
 
           {/* Shuffle */}
           <button
             type="button"
+            onPointerDown={keepFocus}
             onClick={onUseShuffleClick}
             disabled={inventory.shuffle <= 0 || !isPlaying}
             title="셔플권: 현재 떨어지는 단어를 쉬운 단어로 바꿉니다"
-            className="relative group px-2.5 py-1.5 rounded-2xl glass-panel border border-white/20 hover:border-lime-400/60 disabled:opacity-40 flex items-center gap-1.5 cursor-pointer transition-all active:scale-95"
+            className={`relative group ${compact ? 'p-1 rounded-xl' : 'px-2.5 py-1.5 rounded-2xl'} glass-panel border border-white/20 hover:border-lime-400/60 disabled:opacity-40 flex items-center gap-1.5 cursor-pointer transition-all active:scale-95`}
           >
-            <ShuffleArrowsIcon className="w-7 h-7" />
-            <div className="text-left">
+            <ShuffleArrowsIcon className={compact ? "w-6 h-6" : "w-7 h-7"} />
+            {!compact && <div className="text-left">
               <div className="text-[9px] text-slate-300 font-bold leading-none">쉬운셔플</div>
               <div className="text-xs font-black text-lime-300 leading-tight">x{inventory.shuffle}</div>
-            </div>
+            </div>}
+            {compact && <span className="absolute -top-1 -right-1 min-w-4 h-4 px-1 rounded-full bg-amber-400 text-slate-950 text-[9px] font-black flex items-center justify-center">{inventory.shuffle}</span>}
           </button>
         </div>
       </div>

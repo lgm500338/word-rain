@@ -29,9 +29,14 @@ export function getLevelConfig(level: number): LevelConfig {
     tierTitleEn = 'Daily Writer';
   }
 
-  // Words required to clear:
-  // Level 1 starts at 5 words, +1 word per level up to a comfortable 18-word cap
-  const wordsRequired = Math.min(18, 4 + safeLevel);
+  // 레벨당 떨어지는 단어 개수 (정확히 이 개수만 떨어지고, 다 처리되면 레벨 종료)
+  //  1~5: 5개 / 6~10: 6개 / 11~30: 7개 / 31~70: 8개 / 71~100: 9개
+  //  101~200: 10개 / 201~400: 11개 / 401~700: 12개 / 701~1000: 13개 / 1001~: 14개
+  const WORD_COUNT_STEPS: [number, number][] = [
+    [5, 5], [10, 6], [30, 7], [70, 8], [100, 9],
+    [200, 10], [400, 11], [700, 12], [1000, 13],
+  ];
+  const wordsRequired = WORD_COUNT_STEPS.find(([maxLv]) => safeLevel <= maxLv)?.[1] ?? 14;
 
   // Comfortable Speed Scaling:
   // User requested: High levels have novel-length sentences, so no need to make speed excessively fast!

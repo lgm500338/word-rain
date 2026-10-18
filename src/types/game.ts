@@ -87,6 +87,7 @@ export interface GameStats {
   wordsCleared: number;
   levelWordsCleared: number;
   levelWordsTarget: number;
+  levelWordsMissed?: number; // 이번 레벨에서 놓친 단어 수
   sentencesCompleted: number;
   combo: number;
   maxCombo: number;

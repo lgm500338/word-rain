@@ -133,6 +133,7 @@ export default function App() {
     wordsCleared: 0,
     levelWordsCleared: 0,
     levelWordsTarget: levelConfig.wordsRequired,
+    levelWordsMissed: 0,
     sentencesCompleted: 0,
     combo: 0,
     maxCombo: 0,
@@ -162,6 +163,35 @@ export default function App() {
   const startTimeRef = useRef<number>(Date.now());
   const recentWordsRef = useRef<string[]>([]);
   const recentSentenceTemplateIdsRef = useRef<string[]>([]);
+  // 폰 키보드가 올라왔는지 감지 → 압축 모드
+  const [isKeyboardOpen, setIsKeyboardOpen] = useState(false);
+  const [viewportHeight, setViewportHeight] = useState<number | null>(null);
+  useEffect(() => {
+    const vv = window.visualViewport;
+    if (!vv) return;
+    const isTouch = window.matchMedia('(pointer: coarse)').matches;
+    if (!isTouch) return;
+    let fullHeight = Math.max(vv.height, window.innerHeight);
+    const update = () => {
+      fullHeight = Math.max(fullHeight, vv.height);
+      const open = vv.height < fullHeight * 0.78;
+      setIsKeyboardOpen(open);
+      setViewportHeight(open ? vv.height : null);
+      if (open) window.scrollTo(0, 0);
+    };
+    const onRotate = () => { fullHeight = 0; setTimeout(update, 300); };
+    vv.addEventListener('resize', update);
+    window.addEventListener('orientationchange', onRotate);
+    update();
+    return () => {
+      vv.removeEventListener('resize', update);
+      window.removeEventListener('orientationchange', onRotate);
+    };
+  }, []);
+  const compact = isKeyboardOpen;
+
+  // 이번 레벨에서 지금까지 떨어뜨린 단어 수 (레벨 목표 개수만큼만 떨어뜨림)
+  const spawnedCountRef = useRef<number>(0);
 
   // Keep theme updated when auto mode is on & show destination intro
   useEffect(() => {
@@ -243,12 +273,14 @@ export default function App() {
       level: targetLevel,
       levelWordsCleared: 0,
       levelWordsTarget: config.wordsRequired,
+      levelWordsMissed: 0,
       lives: 5,
       score: preserveScore ? prev.score : 0,
       combo: preserveScore ? prev.combo : 0,
     }));
 
     keystrokeCountRef.current = 0;
+    spawnedCountRef.current = 0;
     startTimeRef.current = Date.now();
   }, []);
 
@@ -264,6 +296,8 @@ export default function App() {
       setFallingWords((prevWords) => {
         const maxOnScreen = Math.min(6, 3 + Math.floor(level / 15));
         if (prevWords.length >= maxOnScreen) return prevWords;
+        // 이번 레벨 단어를 다 떨어뜨렸으면 더 이상 만들지 않음
+        if (spawnedCountRef.current >= levelConfig.wordsRequired) return prevWords;
 
         const { newWord, newSentence } = spawnNextWord(
           level,
@@ -298,12 +332,13 @@ export default function App() {
           });
         }
 
+        spawnedCountRef.current += 1;
         return [...prevWords, newWord];
       });
     }, levelConfig.dropIntervalMs);
 
     return () => clearInterval(spawnTimer);
-  }, [gameState, isAnyOverlayOpen, level, language, activeSentences, levelConfig.dropIntervalMs]);
+  }, [gameState, isAnyOverlayOpen, level, language, activeSentences, levelConfig.dropIntervalMs, levelConfig.wordsRequired]);
 
   // Word falling animation loop
   useEffect(() => {
@@ -334,6 +369,7 @@ export default function App() {
             return {
               ...prev,
               lives: newLives,
+              levelWordsMissed: (prev.levelWordsMissed || 0) + lostLivesCount,
               combo: 0,
             };
           });
@@ -345,6 +381,29 @@ export default function App() {
 
     return () => clearInterval(interval);
   }, [gameState, isAnyOverlayOpen]);
+
+  // 레벨 종료: 정해진 개수를 다 떨어뜨렸고, 화면에 남은 단어가 없을 때
+  useEffect(() => {
+    if (gameState !== 'playing') return;
+    if (stats.lives <= 0) return;
+    if (spawnedCountRef.current < stats.levelWordsTarget) return;
+    if (fallingWords.length > 0) return;
+
+    const timer = setTimeout(() => {
+      sounds.playLevelUp();
+
+      // Advance Daily Challenge step for the current 10-level chunk (1 to 10)
+      const stepInChunk = ((level - 1) % 10) + 1;
+      const stepObj = DAILY_CHALLENGE_STEPS.find((s) => s.step === stepInChunk);
+      if (stepObj) {
+        const label = grantRewardStep(stepObj);
+        setJustEarnedRewardText(label);
+      }
+
+      setGameState('levelClear');
+    }, 600);
+    return () => clearTimeout(timer);
+  }, [fallingWords.length, gameState, stats.lives, stats.levelWordsTarget, level, grantRewardStep]);
 
   // Live WPM calculation
   useEffect(() => {
@@ -452,20 +511,6 @@ export default function App() {
         const nextSentences =
           sentenceCompletedPoints > 0 ? prev.sentencesCompleted + 1 : prev.sentencesCompleted;
         const nextMaxCombo = Math.max(prev.maxCombo, currentCombo);
-
-        if (nextCleared >= prev.levelWordsTarget && gameState === 'playing') {
-          sounds.playLevelUp();
-
-          // Advance Daily Challenge step for the current 10-level chunk (1 to 10)
-          const stepInChunk = ((level - 1) % 10) + 1;
-          const stepObj = DAILY_CHALLENGE_STEPS.find((s) => s.step === stepInChunk);
-          if (stepObj) {
-            const label = grantRewardStep(stepObj);
-            setJustEarnedRewardText(label);
-          }
-
-          setGameState('levelClear');
-        }
 
         return {
           ...prev,
@@ -732,7 +777,10 @@ export default function App() {
   const atmosphere = getAtmosphereForLevel(level);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden flex flex-col justify-between font-sans">
+    <div
+      className="relative w-screen h-screen overflow-hidden flex flex-col justify-between font-sans"
+      style={viewportHeight ? { height: viewportHeight } : undefined}
+    >
       
       {/* Background Image Preloader & Error Fallback detector */}
       <img
@@ -780,6 +828,7 @@ export default function App() {
         onTogglePause={() => setGameState(gameState === 'playing' ? 'paused' : 'playing')}
         theme={theme}
         phaseLabel={atmosphere.phaseLabelKo}
+        compact={compact}
         onOpenLevelModal={() => setIsLevelModalOpen(true)}
         onOpenDailyCheckIn={() => setIsDailyCheckInOpen(true)}
         onOpenDailyChallenge={() => setIsDailyChallengeOpen(true)}
@@ -800,7 +849,7 @@ export default function App() {
       </main>
 
       {/* Bottom Central Typing Bar */}
-      <div className="relative w-full z-40 pb-3.5 pt-1 flex flex-col items-center">
+      <div className={`relative w-full z-40 ${compact ? 'pb-1 pt-0.5' : 'pb-3.5 pt-1'} flex flex-col items-center`}>
 
         {/* Central Ergonomic Typing Input Bar + 3 Power-Up Items */}
         <TypingInput
@@ -815,6 +864,7 @@ export default function App() {
           onUseWandClick={handleUseWandButton}
           onUseUndoClick={handleUseUndoButton}
           onUseShuffleClick={handleUseShuffleButton}
+          compact={compact}
         />
       </div>
 
