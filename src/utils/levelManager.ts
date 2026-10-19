@@ -2,6 +2,66 @@ import { LevelConfig, Language, FallingWord, SentenceChain, SentenceSlot } from 
 import { KOREAN_STANDALONE_WORDS, KOREAN_SENTENCE_TEMPLATES, KoreanWordEntry } from '../data/koreanData';
 import { ENGLISH_STANDALONE_WORDS, ENGLISH_SENTENCE_TEMPLATES, EnglishWordEntry } from '../data/englishData';
 import { getThemeForLevel } from '../data/themes';
+import { POOL_1, POOL_2, POOL_4 } from '../data/wordPool';
+import { getChosung } from './hangul';
+
+// ---------------------------------------------------------------------------
+// 한국어 단어 풀: 글자 수로 등급을 나눔 (1~2글자: 1레벨~, 3글자: 30레벨~, 4글자 이상: 70레벨~)
+// ---------------------------------------------------------------------------
+const tierByLength = (word: string) => (word.length <= 2 ? 1 : word.length === 3 ? 2 : 3);
+
+const KOREAN_WORD_POOL: KoreanWordEntry[] = (() => {
+  const map = new Map<string, KoreanWordEntry>();
+  for (const w of KOREAN_STANDALONE_WORDS) {
+    map.set(w.canonical, { ...w, tier: tierByLength(w.canonical) });
+  }
+  const extra = `${POOL_1} ${POOL_2} ${POOL_4}`.split(/\s+/).filter(Boolean);
+  for (const word of extra) {
+    if (map.has(word)) continue;
+    map.set(word, { chosung: getChosung(word), canonical: word, role: 'standalone', tier: tierByLength(word), accepted: [word] });
+  }
+  return [...map.values()];
+})();
+
+const maxTierForLevel = (level: number) => (level < 30 ? 1 : level < 70 ? 2 : 3);
+
+// 한 번 나온 초성·단어는 기억해 두었다가 되도록 다시 안 나오게 (앱을 껐다 켜도 유지)
+const SEEN_KEY = 'wordrain_seen_ko';
+const seenSet: Set<string> = (() => {
+  try {
+    return new Set<string>(JSON.parse(localStorage.getItem(SEEN_KEY) || '[]'));
+  } catch {
+    return new Set<string>();
+  }
+})();
+const saveSeen = () => {
+  try {
+    localStorage.setItem(SEEN_KEY, JSON.stringify([...seenSet]));
+  } catch {}
+};
+
+function pickFreshKoreanWord(level: number, onScreenPrompts: string[]): KoreanWordEntry {
+  const maxTier = maxTierForLevel(level);
+  const eligible = KOREAN_WORD_POOL.filter((w) => w.tier <= maxTier && !onScreenPrompts.includes(w.chosung));
+  // 1순위: 초성도 단어도 처음 보는 것 → 2순위: 단어가 처음인 것 → 다 썼으면 이 등급 기록을 비우고 다시
+  let candidates = eligible.filter((w) => !seenSet.has('p:' + w.chosung) && !seenSet.has('w:' + w.canonical));
+  if (candidates.length === 0) candidates = eligible.filter((w) => !seenSet.has('w:' + w.canonical));
+  if (candidates.length === 0) {
+    for (const w of eligible) {
+      seenSet.delete('p:' + w.chosung);
+      seenSet.delete('w:' + w.canonical);
+    }
+    candidates = eligible.length ? eligible : KOREAN_WORD_POOL.filter((w) => w.tier === 1);
+  }
+  // 새로 열린 등급(3글자, 4글자)의 단어가 너무 드물지 않게: 가장 높은 등급을 절반 확률로 우선
+  const topTier = candidates.filter((w) => w.tier === maxTier);
+  const pool = maxTier > 1 && topTier.length > 0 && Math.random() < 0.5 ? topTier : candidates;
+  const chosen = pool[Math.floor(Math.random() * pool.length)];
+  seenSet.add('p:' + chosen.chosung);
+  seenSet.add('w:' + chosen.canonical);
+  saveSeen();
+  return chosen;
+}
 
 /**
  * Calculates level configuration for Infinite Levels (Lv. 1 ~ ∞)
@@ -52,12 +112,13 @@ export function getLevelConfig(level: number): LevelConfig {
   // Level 5~14: 0.55 (words + daily phrases like "나는 배가 고파", "완전 가을이야")
   // Level 15~34: 0.65 (compound sentences)
   // Level 35~∞: 0.78 (novel-level literary long sentences + words)
+  // 문장은 세 글자 이상 조각이 많아서 30레벨부터 등장
   let sentenceProbability = 0;
-  if (safeLevel >= 5 && safeLevel <= 14) {
-    sentenceProbability = 0.55;
-  } else if (safeLevel >= 15 && safeLevel <= 34) {
+  if (safeLevel >= 30 && safeLevel < 50) {
+    sentenceProbability = 0.5;
+  } else if (safeLevel >= 50 && safeLevel < 100) {
     sentenceProbability = 0.65;
-  } else if (safeLevel >= 35) {
+  } else if (safeLevel >= 100) {
     sentenceProbability = 0.78;
   }
 
@@ -226,36 +287,9 @@ export function spawnNextWord(
       }
     }
 
-    // Default: Spawn standalone word with STRICT ANTI-REPETITION FILTER
+    // Default: 한 번 나온 단어는 되도록 다시 안 나오게 골라서 떨어뜨림
     const existingPrompts = existingWords.map(w => w.prompt);
-    const eligibleWords = KOREAN_STANDALONE_WORDS.filter(w => {
-      if (level <= 8) return w.tier === 1;
-      if (level <= 25) return w.tier <= 2;
-      return true;
-    });
-
-    // 1st priority: words NOT in recentWords history and not already falling on screen
-    const freshWords = eligibleWords.filter(
-      w => !recentWords.includes(w.canonical) && !recentWords.includes(w.chosung) && !existingPrompts.includes(w.chosung)
-    );
-
-    // 2nd priority: words not falling on screen, sorted by LRU (least recently used)
-    const nonScreenWords = eligibleWords.filter(w => !existingPrompts.includes(w.chosung));
-
-    let chosen: KoreanWordEntry;
-    if (freshWords.length > 0) {
-      chosen = freshWords[Math.floor(Math.random() * freshWords.length)];
-    } else if (nonScreenWords.length > 0) {
-      // Pick the word furthest back in recent history so it doesn't repeat from recent levels
-      const sortedByLRU = [...nonScreenWords].sort((a, b) => {
-        const idxA = recentWords.indexOf(a.canonical);
-        const idxB = recentWords.indexOf(b.canonical);
-        return (idxB === -1 ? 9999 : idxB) - (idxA === -1 ? 9999 : idxA);
-      });
-      chosen = sortedByLRU[0];
-    } else {
-      chosen = eligibleWords[Math.floor(Math.random() * eligibleWords.length)];
-    }
+    const chosen = pickFreshKoreanWord(level, existingPrompts);
 
     return {
       newWord: {

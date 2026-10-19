@@ -2966,6 +2966,7 @@ const ENDINGS = [
   '이었어요', '였어요', '이에요', '이었어', '였어', '이었다', '였다', '이예요', '예요',
   '이야', '이다', '이고', '이랑', '이나', '이며', '이지', '이네', '이요',
   '한테', '에게', '께서', '에서', '으로', '부터', '까지', '처럼', '보다', '하고', '라도', '마저', '조차', '밖에',
+  '이라서', '이라도', '이라면', '이라', '이란', '인데', '이면', '인',
   '들이', '들은', '들을', '들도', '들의', '들과', '들',
   '야', '랑', '로', '도', '만', '의', '은', '는', '이', '가', '을', '를', '에', '와', '과', '나', '요', '지', '네',
 ];
@@ -3032,6 +3033,21 @@ function getLemmaCandidates(word: string): string[] {
     if (t === 10) out.push(prefix + joinSyllable(l, v, 8) + '다'); // ㄻ → ㄹ
   }
   if (last === '기' && word.length >= 2) out.push(prefix + '다');
+
+  // 동사·형용사 어미를 떼고 기본형으로 (싸자 → 싸다, 먹고 → 먹다, 갔어 → 가다, 봤다 → 보다)
+  const stems = [word];
+  for (const end of VERB_ENDINGS) {
+    if (word.length > end.length && word.endsWith(end)) stems.push(word.slice(0, -end.length));
+  }
+  for (const stem of stems) {
+    const variants = [stem];
+    const p = splitSyllable(stem[stem.length - 1]);
+    if (p && p[2] === 20) variants.push(stem.slice(0, -1) + joinSyllable(p[0], p[1], 0)); // 과거형 ㅆ 떼기
+    for (const v of variants) {
+      if (v !== word) out.push(v + '다');
+      for (const base of uncontract(v)) out.push(base + '다');
+    }
+  }
   if (last === '다' && word.length >= 2) out.push(word);
 
   // -아/어지다 (써지다 → 쓰다, 만들어지다 → 만들다)
@@ -3042,6 +3058,13 @@ function getLemmaCandidates(word: string): string[] {
   }
   return out;
 }
+
+// 동사·형용사 어미 (긴 것부터)
+const VERB_ENDINGS = [
+  '었어요', '았어요', '였어요', '했어요', '습니다', '세요', '어요', '아요', '여요', '는데', '지만', '어서', '아서', '도록',
+  '었다', '았다', '였다', '었어', '았어', '였어', '했다', '했어', '겠다', '네요', '군요', '어라', '아라',
+  '자', '고', '게', '지', '면', '니', '네', '죠', '며', '러', '려', '서', '요', '어', '아', '다',
+];
 
 // 합친 말에 쓰이는 한 글자 단어
 const ONE_SYLLABLE_PARTS = new Set(

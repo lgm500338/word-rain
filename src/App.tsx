@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import confetti from 'canvas-confetti';
 import {
   FallingWord,
@@ -14,7 +14,10 @@ import { matchKoreanInput } from './utils/hangul';
 import { matchEnglishInput } from './utils/english';
 import { loadFullKoreanDictionary } from './utils/koreanDictionary';
 import { isRestrictedInput } from './utils/profanityFilter';
-import { getThemeForLevel, getAtmosphereForLevel } from './data/themes';
+import { getThemeForLevel, getAtmosphereForLevel, THEMES } from './data/themes';
+
+// 배경 사진 후보 (중복 제거)
+const ALL_BG_URLS: string[] = [...new Set(THEMES.map((t) => t.imageUrl))];
 import { KOREAN_STANDALONE_WORDS } from './data/koreanData';
 import { ENGLISH_STANDALONE_WORDS } from './data/englishData';
 import { sounds } from './utils/sound';
@@ -107,11 +110,18 @@ export default function App() {
   const [isThemeModalOpen, setIsThemeModalOpen] = useState<boolean>(false);
   const [isDailyChallengeOpen, setIsDailyChallengeOpen] = useState<boolean>(false);
   const [isDailyCheckInOpen, setIsDailyCheckInOpen] = useState<boolean>(false);
-  const [bgImageError, setBgImageError] = useState<boolean>(false);
-
-  useEffect(() => {
-    setBgImageError(false);
-  }, [theme.imageUrl]);
+  // 배경 사진: 주소가 깨진 사진은 기억해 두고, 다음 사진으로 자동 교체
+  const [failedBgUrls, setFailedBgUrls] = useState<string[]>([]);
+  const bgUrl = useMemo(() => {
+    if (!failedBgUrls.includes(theme.imageUrl)) return theme.imageUrl;
+    const start = Math.max(0, ALL_BG_URLS.indexOf(theme.imageUrl));
+    for (let i = 1; i <= ALL_BG_URLS.length; i++) {
+      const candidate = ALL_BG_URLS[(start + i) % ALL_BG_URLS.length];
+      if (!failedBgUrls.includes(candidate)) return candidate;
+    }
+    return null;
+  }, [theme.imageUrl, failedBgUrls]);
+  const bgImageError = bgUrl === null;
 
   // Player Inventory (Coins + 3 Power-up Items)
   const [inventory, setInventory] = useState<PlayerInventory>(() => {
@@ -491,10 +501,9 @@ export default function App() {
       isCreative: boolean = false
     ) => {
       const currentCombo = stats.combo + 1;
-      // Controlled, non-inflated combo bonus: +1P for every 5 combos
-      const comboBonus = Math.floor(currentCombo / 5);
-      const baseWordPoints = isDragPass ? 1 : (matchedWord.points || 1);
-      const totalPoints = baseWordPoints + hitBonus + comboBonus;
+      // 점수 규칙: 예시 단어를 그대로 치면 0점, 내가 생각한 다른 단어를 치면 1점 (그 외 보너스 없음)
+      void hitBonus;
+      const totalPoints = !isDragPass && isCreative ? 1 : 0;
 
       if (isDragPass) {
         sounds.playRewardClaim();
@@ -523,7 +532,7 @@ export default function App() {
             const isAllFilled = updatedSlots.every((s) => s.isFilled);
             if (isAllFilled && !sent.isCompleted) {
               // Sentence completed! Reward points = slot count (+N P)
-              sentenceCompletedPoints = sent.rewardPoints || sent.slots.length;
+              sentenceCompletedPoints = 0; // 문장 완성 보너스 점수 없음 (점수는 단어당 규칙만 적용)
               sentenceTitle = sent.title;
               sounds.playSentenceComplete();
               try {
@@ -845,10 +854,11 @@ export default function App() {
       
       {/* Background Image Preloader & Error Fallback detector */}
       <img
-        src={theme.imageUrl}
+        key={bgUrl || 'none'}
+        src={bgUrl || undefined}
         alt=""
         className="hidden"
-        onError={() => setBgImageError(true)}
+        onError={() => bgUrl && setFailedBgUrls((prev) => (prev.includes(bgUrl) ? prev : [...prev, bgUrl]))}
       />
 
       {/* Scenic Nature & Landmark Background Wallpaper: 100% Clear & Natural Original Scenery */}
@@ -862,7 +872,7 @@ export default function App() {
           backgroundColor: '#0f172a',
           backgroundImage: bgImageError
             ? 'linear-gradient(135deg, #0b1329 0%, #1e293b 50%, #0f172a 100%)'
-            : `url(${theme.imageUrl})`,
+            : `url(${bgUrl})`,
         }}
       />
 
