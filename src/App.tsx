@@ -14,10 +14,11 @@ import { matchKoreanInput } from './utils/hangul';
 import { matchEnglishInput } from './utils/english';
 import { loadFullKoreanDictionary } from './utils/koreanDictionary';
 import { isRestrictedInput } from './utils/profanityFilter';
-import { getThemeForLevel, getAtmosphereForLevel, THEMES } from './data/themes';
+import { getThemeForLevel, getAtmosphereForLevel } from './data/themes';
+import { BACKGROUND_URLS } from './data/backgrounds';
 
-// 배경 사진 후보 (중복 제거)
-const ALL_BG_URLS: string[] = [...new Set(THEMES.map((t) => t.imageUrl))];
+// 배경 사진 후보
+const ALL_BG_URLS: string[] = BACKGROUND_URLS;
 import { KOREAN_STANDALONE_WORDS } from './data/koreanData';
 import { ENGLISH_STANDALONE_WORDS } from './data/englishData';
 import { sounds } from './utils/sound';
@@ -110,18 +111,33 @@ export default function App() {
   const [isThemeModalOpen, setIsThemeModalOpen] = useState<boolean>(false);
   const [isDailyChallengeOpen, setIsDailyChallengeOpen] = useState<boolean>(false);
   const [isDailyCheckInOpen, setIsDailyCheckInOpen] = useState<boolean>(false);
-  // 배경 사진: 주소가 깨진 사진은 기억해 두고, 다음 사진으로 자동 교체
-  const [failedBgUrls, setFailedBgUrls] = useState<string[]>([]);
-  const bgUrl = useMemo(() => {
-    if (!failedBgUrls.includes(theme.imageUrl)) return theme.imageUrl;
-    const start = Math.max(0, ALL_BG_URLS.indexOf(theme.imageUrl));
-    for (let i = 1; i <= ALL_BG_URLS.length; i++) {
-      const candidate = ALL_BG_URLS[(start + i) % ALL_BG_URLS.length];
-      if (!failedBgUrls.includes(candidate)) return candidate;
+  // 배경 사진: 모든 사진을 레벨 순서대로 한 번씩 돌려서, 다른 사진을 다 보기 전에는 같은 사진이 안 나옴
+  // 안 열리는 사진은 이 기기에 기억해 두고 빼고 돌림 (그래도 이웃 레벨끼리는 항상 다른 사진)
+  const [failedBgUrls, setFailedBgUrls] = useState<string[]>(() => {
+    try {
+      return JSON.parse(localStorage.getItem('wordrain_dead_photos') || '[]');
+    } catch {
+      return [];
     }
-    return null;
-  }, [theme.imageUrl, failedBgUrls]);
+  });
+  useEffect(() => {
+    try {
+      localStorage.setItem('wordrain_dead_photos', JSON.stringify(failedBgUrls));
+    } catch {}
+  }, [failedBgUrls]);
+  const bgUrl = useMemo(() => {
+    const working = ALL_BG_URLS.filter((u) => !failedBgUrls.includes(u));
+    if (working.length === 0) return null;
+    return working[(Math.max(1, level) - 1) % working.length];
+  }, [level, failedBgUrls]);
   const bgImageError = bgUrl === null;
+  // 다음 레벨 사진을 미리 받아 두기 (레벨이 바뀌자마자 바로 보이게)
+  useEffect(() => {
+    const working = ALL_BG_URLS.filter((u) => !failedBgUrls.includes(u));
+    if (working.length < 2) return;
+    const img = new Image();
+    img.src = working[level % working.length];
+  }, [level, failedBgUrls]);
 
   // Player Inventory (Coins + 3 Power-up Items)
   const [inventory, setInventory] = useState<PlayerInventory>(() => {

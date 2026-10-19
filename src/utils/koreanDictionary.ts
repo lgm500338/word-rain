@@ -3105,6 +3105,7 @@ function getLemmaCandidates(word: string): string[] {
     const variants = [stem];
     const p = splitSyllable(stem[stem.length - 1]);
     if (p && p[2] === 20) variants.push(stem.slice(0, -1) + joinSyllable(p[0], p[1], 0)); // 과거형 ㅆ 떼기
+    if (p && p[2] === 8) variants.push(stem.slice(0, -1) + joinSyllable(p[0], p[1], 0)); // 갈게 → 가다
     for (const v of variants) {
       if (v !== word) out.push(v + '다');
       for (const base of uncontract(v)) out.push(base + '다');
@@ -3123,9 +3124,11 @@ function getLemmaCandidates(word: string): string[] {
 
 // 동사·형용사 어미 (긴 것부터)
 const VERB_ENDINGS = [
+  '아주세요', '어주세요', '아줄게요', '어줄게요', '아줄게', '어줄게', '아줄래', '어줄래', '아줬어', '어줬어', '아줘', '어줘', '아주자', '어주자',
+  '아볼게', '어볼게', '아봐', '어봐', '볼게', '볼래', '봐요', '줄게', '줄래', '줘요', '줘', '을게요', '을래요', '을게', '을래', '을까', '래요', '게요', '래', '까',
   '었어요', '았어요', '였어요', '했어요', '습니다', '세요', '어요', '아요', '여요', '는데', '지만', '어서', '아서', '도록',
   '었다', '았다', '였다', '었어', '았어', '였어', '했다', '했어', '겠다', '네요', '군요', '어라', '아라',
-  '자', '고', '게', '지', '면', '니', '네', '죠', '며', '러', '려', '서', '요', '어', '아', '다',
+  '음', '자', '고', '게', '지', '면', '니', '네', '죠', '며', '러', '려', '서', '요', '어', '아', '다',
 ];
 
 // 합친 말에 쓰이는 한 글자 단어
