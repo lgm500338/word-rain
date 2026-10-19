@@ -104,11 +104,12 @@ export function spawnNextWord(
   const wordId = 'word_' + Math.random().toString(36).substring(2, 9);
   const color = PALETTE[Math.floor(Math.random() * PALETTE.length)];
 
-  // 겹치지 않게: 아직 위쪽에 있는 카드들과 가장 멀리 떨어진 가로 위치를 고름
-  const upperXPositions = existingWords.filter(w => w.y < 55).map(w => w.x);
+  // 겹치지 않게: 위쪽에 있는 카드들과 가로로 가장 멀리 떨어진 자리를 고름
+  // (같은 레벨의 단어는 모두 같은 속도로 떨어지므로, 처음에 안 겹치면 끝까지 안 겹침)
+  const upperXPositions = existingWords.filter(w => w.y < 40).map(w => w.x);
   let chosenX = 15 + Math.random() * 70;
   let bestGap = -1;
-  for (let attempt = 0; attempt < 16; attempt++) {
+  for (let attempt = 0; attempt < 24; attempt++) {
     const candidateX = 15 + Math.random() * 70;
     const gap = upperXPositions.length
       ? Math.min(...upperXPositions.map(x => Math.abs(x - candidateX)))
@@ -117,7 +118,7 @@ export function spawnNextWord(
       bestGap = gap;
       chosenX = candidateX;
     }
-    if (gap >= 35) break;
+    if (gap >= 40) break;
   }
 
   const shouldSpawnSentence = Math.random() < config.sentenceProbability;
@@ -151,7 +152,7 @@ export function spawnNextWord(
             sentenceSlotLabel: slot.label,
             x: chosenX,
             y: 0,
-            speed: config.baseSpeed * (0.92 + Math.random() * 0.16),
+            speed: config.baseSpeed,
             points: 1,
             bonus: 0,
             color,
@@ -216,7 +217,7 @@ export function spawnNextWord(
             sentenceSlotLabel: firstSlot.label,
             x: chosenX,
             y: 0,
-            speed: config.baseSpeed * (0.92 + Math.random() * 0.16),
+            speed: config.baseSpeed,
             points: 1,
             bonus: 0,
             color,
@@ -265,7 +266,7 @@ export function spawnNextWord(
         role: chosen.role,
         x: chosenX,
         y: 0,
-        speed: config.baseSpeed * (0.9 + Math.random() * 0.2),
+        speed: config.baseSpeed,
         points: 1, // +1P per word
         bonus: 0,
         color,
@@ -298,7 +299,7 @@ export function spawnNextWord(
             sentenceSlotLabel: target.slot.label,
             x: chosenX,
             y: 0,
-            speed: config.baseSpeed * (0.92 + Math.random() * 0.16),
+            speed: config.baseSpeed,
             points: 1,
             bonus: 0,
             color,
@@ -357,7 +358,7 @@ export function spawnNextWord(
             sentenceSlotLabel: firstSlot.label,
             x: chosenX,
             y: 0,
-            speed: config.baseSpeed * (0.92 + Math.random() * 0.16),
+            speed: config.baseSpeed,
             points: 1,
             bonus: 0,
             color,
@@ -401,7 +402,7 @@ export function spawnNextWord(
         role: chosen.role,
         x: chosenX,
         y: 0,
-        speed: config.baseSpeed * (0.9 + Math.random() * 0.2),
+        speed: config.baseSpeed,
         points: 1, // +1P per word
         bonus: 0,
         color,

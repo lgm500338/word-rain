@@ -1,3 +1,4 @@
+import { EXTRA_WORDS } from '../data/extraWords';
 /**
  * Comprehensive Standard Korean Dictionary for Word Rain.
  * Sourced from National Institute of Korean Language (국립국어원 표준국어대사전).
@@ -2941,26 +2942,124 @@ export function isValidKoreanWord(input: string, customAccepted?: string[]): boo
     return true;
   }
 
-  // 3. Direct dictionary membership
-  if (VALID_KOREAN_WORDS.has(clean)) {
-    return true;
+  // 3. 단어 자체, 조사·어미를 뗀 형태(남이야 → 남), 기본형(알림 → 알리다, 써진 → 쓰다), 합친 말(치킨+집)
+  const forms = [clean, stripParticle(clean), ...stripEndings(clean)];
+  for (const form of forms) {
+    if (form.length === 0) continue;
+    if (inDict(form)) return true;
+    if (getLemmaCandidates(form).some(inDict)) return true;
+    if (isCompoundWord(form)) return true;
   }
+  return false;
+}
 
-  // 4. Check stripped base word (e.g. '언니가' -> '언니', '사과를' -> '사과', '언니는' -> '언니', '발발이' -> '발발')
-  const base = stripParticle(clean);
-  if (base !== clean && VALID_KOREAN_WORDS.has(base)) {
-    return true;
-  }
+// ---------------------------------------------------------------------------
+// 사전 보완 규칙
+// ---------------------------------------------------------------------------
 
-  // 5. Check verb / adjective conjugation back to standard lemma (-다)
-  // e.g. '혼난' -> '혼나다', '예쁜' -> '예쁘다', '화난' -> '화나다', '먹은' -> '먹다'
-  const verbStems = getVerbStemCandidates(clean);
-  for (const stem of verbStems) {
-    if (VALID_KOREAN_WORDS.has(stem)) {
-      return true;
+function inDict(word: string): boolean {
+  return VALID_KOREAN_WORDS.has(word) || EXTRA_WORDS.has(word);
+}
+
+// 단어 뒤에 붙는 조사·어미 (긴 것부터)
+const ENDINGS = [
+  '이었어요', '였어요', '이에요', '이었어', '였어', '이었다', '였다', '이예요', '예요',
+  '이야', '이다', '이고', '이랑', '이나', '이며', '이지', '이네', '이요',
+  '한테', '에게', '께서', '에서', '으로', '부터', '까지', '처럼', '보다', '하고', '라도', '마저', '조차', '밖에',
+  '들이', '들은', '들을', '들도', '들의', '들과', '들',
+  '야', '랑', '로', '도', '만', '의', '은', '는', '이', '가', '을', '를', '에', '와', '과', '나', '요', '지', '네',
+];
+
+function stripEndings(word: string): string[] {
+  const out: string[] = [];
+  for (const end of ENDINGS) {
+    if (word.length > end.length && word.endsWith(end)) {
+      out.push(word.slice(0, -end.length));
     }
   }
+  return out;
+}
 
+const HANGUL_START = 0xac00;
+const HANGUL_END = 0xd7a3;
+
+function splitSyllable(ch: string): [number, number, number] | null {
+  const code = ch.charCodeAt(0);
+  if (code < HANGUL_START || code > HANGUL_END) return null;
+  const idx = code - HANGUL_START;
+  return [Math.floor(idx / 588), Math.floor((idx % 588) / 28), idx % 28];
+}
+
+function joinSyllable(l: number, v: number, t: number): string {
+  return String.fromCharCode(HANGUL_START + l * 588 + v * 28 + t);
+}
+
+// 써 → 쓰, 봐 → 보, 줘 → 주 처럼 줄어든 모음을 되돌린 후보
+function uncontract(prefix: string): string[] {
+  const out: string[] = [];
+  if (!prefix) return out;
+  const last = prefix[prefix.length - 1];
+  const head = prefix.slice(0, -1);
+  if ((last === '아' || last === '어' || last === '여') && head.length > 0) out.push(head);
+  if (last === '해') out.push(head + '하');
+  const parts = splitSyllable(last);
+  if (parts && parts[2] === 0) {
+    const [l, v] = parts;
+    const map: Record<number, number[]> = {
+      4: [18, 4],   // ㅓ → ㅡ, ㅓ (써 → 쓰, 서 → 서)
+      0: [18, 0],   // ㅏ → ㅡ, ㅏ (아파 → 아프, 가 → 가)
+      14: [13],     // ㅝ → ㅜ (줘 → 주)
+      9: [8],       // ㅘ → ㅗ (봐 → 보)
+      6: [20],      // ㅕ → ㅣ (펴 → 피)
+      10: [11],     // ㅙ → ㅚ (돼 → 되)
+      1: [1],       // ㅐ (보내 → 보내)
+      5: [5],       // ㅔ (세 → 세)
+    };
+    for (const nv of map[v] || []) out.push(head + joinSyllable(l, nv, 0));
+  }
+  return out;
+}
+
+// 기본형(-다) 후보: 알림 → 알리다, 삶 → 살다, 달리기 → 달리다, 써진 → 써지다 → 쓰다
+function getLemmaCandidates(word: string): string[] {
+  const out = [...getVerbStemCandidates(word)];
+  const last = word[word.length - 1];
+  const prefix = word.slice(0, -1);
+  const parts = splitSyllable(last);
+  if (parts) {
+    const [l, v, t] = parts;
+    if (t === 16) out.push(prefix + joinSyllable(l, v, 0) + '다'); // ㅁ 명사형
+    if (t === 10) out.push(prefix + joinSyllable(l, v, 8) + '다'); // ㄻ → ㄹ
+  }
+  if (last === '기' && word.length >= 2) out.push(prefix + '다');
+  if (last === '다' && word.length >= 2) out.push(word);
+
+  // -아/어지다 (써지다 → 쓰다, 만들어지다 → 만들다)
+  for (const cand of [...out]) {
+    if (cand.endsWith('지다') && cand.length >= 3) {
+      for (const base of uncontract(cand.slice(0, -2))) out.push(base + '다');
+    }
+  }
+  return out;
+}
+
+// 합친 말에 쓰이는 한 글자 단어
+const ONE_SYLLABLE_PARTS = new Set(
+  ('닭 집 점 방 길 국 밥 차 물 불 꽃 눈 비 산 강 돈 옷 책 빵 술 손 발 배 말 소 개 새 잠 꿈 맛 빛 봄 밤 낮 해 달 별 땅 ' +
+   '금 은 공 왕 문 창 벽 탑 섬 숲 논 밭 떡 죽 탕 전 김 콩 팥 쌀 감 귤 무 파 간 실 관 원 장 판 표 팀 컵 폰 앱 쇼 펜 ' +
+   '볼 팬 룸 숍 샵 쌈 면 국 회 알 털 뿔 꼬리 철 돌 흙 볕 굴 게 젓 즙 차 칼 솥 병 통 줄 끈 띠 판 판 밥 반 층 칸 ' +
+   '역 항 교 과 반 대 중 소 신 구 남 북 동 서 앞 뒤 옆 위 속 겉 안 밖 끝 첫 막 새 헌 큰 작').split(/\s+/)
+);
+
+function isCompoundWord(word: string): boolean {
+  if (word.length < 2) return false;
+  for (let i = 1; i < word.length; i++) {
+    const a = word.slice(0, i);
+    const b = word.slice(i);
+    const aOk = a.length >= 2 ? inDict(a) : ONE_SYLLABLE_PARTS.has(a);
+    const bOk = b.length >= 2 ? inDict(b) : ONE_SYLLABLE_PARTS.has(b);
+    if (aOk && bOk) return true;
+  }
   return false;
 }
 

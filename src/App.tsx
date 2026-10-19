@@ -28,10 +28,65 @@ import { PauseModal } from './components/PauseModal';
 import { DailyChallengeModal, DAILY_CHALLENGE_STEPS } from './components/DailyChallengeModal';
 import { DailyCheckInModal, DAILY_CHECKIN_STEPS } from './components/DailyCheckInModal';
 
+
+// 카드 폭 추정(px): 초성 글자 수와 예시 단어 길이로 계산
+function estimateCardWidth(word: FallingWord): number {
+  const isWide = typeof window !== 'undefined' && window.innerWidth >= 640;
+  const promptPx = word.prompt.length * (isWide ? 33 : 27);
+  const examplePx = (word.canonicalExample.length + 3) * 12;
+  return Math.max(promptPx, examplePx) + 36;
+}
+
+// 위쪽(아직 덜 내려온) 카드들과 겹치지 않는 가로 위치(%)를 찾음. 없으면 null
+function findFreeX(newWord: FallingWord, existing: FallingWord[]): number | null {
+  const areaWidth = Math.min(typeof window !== 'undefined' ? window.innerWidth : 1280, 1280);
+  const toPct = (px: number) => (px / areaWidth) * 100;
+  const newHalf = toPct(estimateCardWidth(newWord) / 2);
+  const minX = Math.max(5, toPct(72), newHalf + toPct(6));
+  const maxX = 100 - minX;
+  const upper = existing.filter((w) => w.y < 40);
+
+  let bestX: number | null = null;
+  let bestMargin = -Infinity;
+  const start = Math.random() * 3;
+  for (let x = minX + start; x <= maxX; x += 3) {
+    let margin = Infinity;
+    for (const w of upper) {
+      const need = newHalf + toPct(estimateCardWidth(w) / 2) + toPct(8);
+      margin = Math.min(margin, Math.abs(x - w.x) - need);
+    }
+    if (margin === Infinity) margin = 1000 - Math.abs(x - newWord.x); // 비어 있으면 원래 고른 자리 근처
+    if (margin > bestMargin) {
+      bestMargin = margin;
+      bestX = x;
+    }
+  }
+  if (bestX === null || bestMargin < 0) return null;
+  return bestX;
+}
+
 export default function App() {
   // Game Configuration & Language
   const [language, setLanguage] = useState<Language>('ko');
-  const [level, setLevel] = useState<number>(1);
+  // 저장된 진행 상황: 마지막으로 하던 레벨, 지금까지 도달한 가장 높은 레벨
+  const readSavedNumber = (key: string): number => {
+    try {
+      const v = parseInt(localStorage.getItem(key) || '', 10);
+      return Number.isFinite(v) && v >= 1 ? v : 1;
+    } catch {
+      return 1;
+    }
+  };
+  const [maxUnlockedLevel, setMaxUnlockedLevel] = useState<number>(() =>
+    Math.max(readSavedNumber('wordrain_max_level'), readSavedNumber('wordrain_current_level'))
+  );
+  const [level, setLevel] = useState<number>(() => readSavedNumber('wordrain_current_level'));
+  useEffect(() => {
+    try {
+      localStorage.setItem('wordrain_current_level', String(level));
+      localStorage.setItem('wordrain_max_level', String(maxUnlockedLevel));
+    } catch {}
+  }, [level, maxUnlockedLevel]);
   const [gameState, setGameState] = useState<'playing' | 'paused' | 'levelClear' | 'gameOver'>('playing');
 
   // Theme & Location Wallpaper (100 World Landmarks & Atmospheric Infinite Cycles)
@@ -129,7 +184,7 @@ export default function App() {
   // Game Stats
   const [stats, setStats] = useState<GameStats>({
     score: 0,
-    level: 1,
+    level,
     wordsCleared: 0,
     levelWordsCleared: 0,
     levelWordsTarget: levelConfig.wordsRequired,
@@ -308,6 +363,11 @@ export default function App() {
           recentSentenceTemplateIdsRef.current
         );
 
+        // 자리 확인: 위쪽 카드들과 겹치지 않는 가로 위치를 찾고, 없으면 이번엔 쉬고 다음에 떨어뜨림
+        const placedX = findFreeX(newWord, prevWords);
+        if (placedX === null) return prevWords;
+        newWord.x = placedX;
+
         // Record newly spawned word to avoid repeating in current and subsequent levels
         const newlyUsed = [
           newWord.canonicalExample,
@@ -400,6 +460,7 @@ export default function App() {
         setJustEarnedRewardText(label);
       }
 
+      setMaxUnlockedLevel((prev) => Math.max(prev, level + 1));
       setGameState('levelClear');
     }, 600);
     return () => clearTimeout(timer);
@@ -871,6 +932,7 @@ export default function App() {
       {/* Modals */}
       <LevelSelectModal
         currentLevel={level}
+        maxUnlockedLevel={maxUnlockedLevel}
         isOpen={isLevelModalOpen}
         onClose={() => setIsLevelModalOpen(false)}
         onSelectLevel={handleSelectLevel}
