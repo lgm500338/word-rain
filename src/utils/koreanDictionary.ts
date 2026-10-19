@@ -1,4 +1,5 @@
 import { EXTRA_WORDS } from '../data/extraWords';
+import { POOL_1, POOL_2, POOL_4 } from '../data/wordPool';
 /**
  * Comprehensive Standard Korean Dictionary for Word Rain.
  * Sourced from National Institute of Korean Language (국립국어원 표준국어대사전).
@@ -2958,7 +2959,15 @@ export function isValidKoreanWord(input: string, customAccepted?: string[]): boo
 // ---------------------------------------------------------------------------
 
 function inDict(word: string): boolean {
-  return VALID_KOREAN_WORDS.has(word) || EXTRA_WORDS.has(word);
+  if (VALID_KOREAN_WORDS.has(word) || EXTRA_WORDS.has(word)) return true;
+  // 사전에 있는 말 + 하다/되다/스럽다/롭다/답다 (공부하다, 걱정되다, 자랑스럽다, 새롭다)
+  for (const suffix of ['하다', '되다', '스럽다', '롭다', '답다']) {
+    if (word.length > suffix.length && word.endsWith(suffix)) {
+      const root = word.slice(0, -suffix.length);
+      if (VALID_KOREAN_WORDS.has(root) || EXTRA_WORDS.has(root)) return true;
+    }
+  }
+  return false;
 }
 
 // 단어 뒤에 붙는 조사·어미 (긴 것부터)
@@ -3034,6 +3043,59 @@ function getLemmaCandidates(word: string): string[] {
   }
   if (last === '기' && word.length >= 2) out.push(prefix + '다');
 
+  // 불규칙하게 모양이 바뀌는 말들
+  if (parts) {
+    const [l, v, t] = parts;
+    // 관형형 ㄴ/ㄹ (한 글자도: 쓴 → 쓰다, 된 → 되다, 될 → 되다, 만든 → 만들다)
+    if (t === 4 || t === 8) {
+      out.push(prefix + joinSyllable(l, v, 0) + '다');
+      out.push(prefix + joinSyllable(l, v, 8) + '다');   // ㄹ 탈락 (만든 → 만들다, 긴 → 길다)
+      out.push(prefix + joinSyllable(l, v, 27) + '다');  // ㅎ 불규칙 (하얀 → 하얗다, 빨간 → 빨갛다)
+    }
+    // ㅂ니다 (합니다 → 하다, 갑니다 → 가다)
+    if (word.endsWith('니다') && word.length >= 3) {
+      const s3 = splitSyllable(word[word.length - 3]);
+      if (s3 && (s3[2] === 17 || s3[2] === 19)) {
+        out.push(word.slice(0, -3) + joinSyllable(s3[0], s3[1], 0) + '다');
+      } else {
+        out.push(word.slice(0, -3) + word[word.length - 3] + '다');
+      }
+    }
+    // ㅎ 불규칙 -애/-얘 (하얘 → 하얗다, 까매 → 까맣다)
+    if (t === 0 && (v === 1 || v === 3)) out.push(prefix + joinSyllable(l, v === 1 ? 0 : 2, 27) + '다');
+    // ㅂ 불규칙 -운/-워/-와 (추운 → 춥다, 귀여워 → 귀엽다, 고와 → 곱다)
+    if ((last === '운' || last === '워' || last === '와' || last === '울') && word.length >= 2) {
+      const pp = splitSyllable(word[word.length - 2]);
+      if (pp && pp[2] === 0) out.push(word.slice(0, -2) + joinSyllable(pp[0], pp[1], 17) + '다');
+    }
+  }
+  // 르 불규칙 (흘러 → 흐르다, 말라 → 마르다, 몰라 → 모르다)
+  if ((last === '러' || last === '라' || last === '렀' || last === '랐') && word.length >= 2) {
+    const pp = splitSyllable(word[word.length - 2]);
+    if (pp && pp[2] === 8) out.push(word.slice(0, -2) + joinSyllable(pp[0], pp[1], 0) + '르다');
+  }
+  // ㄷ 불규칙 (깨달은 → 깨닫다, 들어 → 듣다, 걸었다 → 걷다)
+  for (const end of ['은', '어', '아', '었다', '었어', '았다', '았어', '으면', '으니']) {
+    if (word.length > end.length && word.endsWith(end)) {
+      const stem = word.slice(0, -end.length);
+      const sp = splitSyllable(stem[stem.length - 1]);
+      if (sp && sp[2] === 8) out.push(stem.slice(0, -1) + joinSyllable(sp[0], sp[1], 7) + '다');
+      // ㅅ 불규칙 (나은 → 낫다, 지어 → 짓다)
+      if (sp && sp[2] === 0) out.push(stem.slice(0, -1) + joinSyllable(sp[0], sp[1], 19) + '다');
+    }
+  }
+
+  // 현재형 -ㄴ다/-는다 (핀다 → 피다, 분다 → 불다, 먹는다 → 먹다)
+  if (word.endsWith('는다') && word.length >= 3) out.push(word.slice(0, -2) + '다');
+  if (word.endsWith('다') && word.length >= 2) {
+    const before = splitSyllable(word[word.length - 2]);
+    if (before && before[2] === 4) {
+      const head = word.slice(0, -2);
+      out.push(head + joinSyllable(before[0], before[1], 0) + '다');
+      out.push(head + joinSyllable(before[0], before[1], 8) + '다');
+    }
+  }
+
   // 동사·형용사 어미를 떼고 기본형으로 (싸자 → 싸다, 먹고 → 먹다, 갔어 → 가다, 봤다 → 보다)
   const stems = [word];
   for (const end of VERB_ENDINGS) {
@@ -3074,17 +3136,30 @@ const ONE_SYLLABLE_PARTS = new Set(
    '역 항 교 과 반 대 중 소 신 구 남 북 동 서 앞 뒤 옆 위 속 겉 안 밖 끝 첫 막 새 헌 큰 작').split(/\s+/)
 );
 
+// 합친 말은 '일상 단어'끼리만 인정 (큰 사전의 낯선 한자어끼리 붙이는 건 막음)
+let commonWords: Set<string> | null = null;
+function isCommonWord(word: string): boolean {
+  if (!commonWords) {
+    commonWords = new Set<string>([...CORE_WORDS, ...EXTRA_WORDS]);
+    for (const w of `${POOL_1} ${POOL_2} ${POOL_4}`.split(/\s+/)) if (w) commonWords.add(w);
+  }
+  return commonWords.has(word);
+}
+
 function isCompoundWord(word: string): boolean {
   if (word.length < 2) return false;
   for (let i = 1; i < word.length; i++) {
     const a = word.slice(0, i);
     const b = word.slice(i);
-    const aOk = a.length >= 2 ? inDict(a) : ONE_SYLLABLE_PARTS.has(a);
-    const bOk = b.length >= 2 ? inDict(b) : ONE_SYLLABLE_PARTS.has(b);
+    const aOk = a.length >= 2 ? isCommonWord(a) : ONE_SYLLABLE_PARTS.has(a);
+    const bOk = b.length >= 2 ? isCommonWord(b) : ONE_SYLLABLE_PARTS.has(b);
     if (aOk && bOk) return true;
   }
   return false;
 }
+
+// 큰 사전을 불러오기 전에 들어 있던 기본(일상) 단어 목록
+const CORE_WORDS: Set<string> = new Set(VALID_KOREAN_WORDS);
 
 let isDictionaryLoading = false;
 let isDictionaryLoaded = false;

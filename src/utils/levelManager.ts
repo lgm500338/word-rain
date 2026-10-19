@@ -3,6 +3,7 @@ import { KOREAN_STANDALONE_WORDS, KOREAN_SENTENCE_TEMPLATES, KoreanWordEntry } f
 import { ENGLISH_STANDALONE_WORDS, ENGLISH_SENTENCE_TEMPLATES, EnglishWordEntry } from '../data/englishData';
 import { getThemeForLevel } from '../data/themes';
 import { POOL_1, POOL_2, POOL_4 } from '../data/wordPool';
+import { SHORT_SENTENCE_TEMPLATES } from '../data/shortSentences';
 import { getChosung } from './hangul';
 
 // ---------------------------------------------------------------------------
@@ -90,13 +91,13 @@ export function getLevelConfig(level: number): LevelConfig {
   }
 
   // 레벨당 떨어지는 단어 개수 (정확히 이 개수만 떨어지고, 다 처리되면 레벨 종료)
-  //  1~5: 5개 / 6~10: 6개 / 11~30: 7개 / 31~70: 8개 / 71~100: 9개
-  //  101~200: 10개 / 201~400: 11개 / 401~700: 12개 / 701~1000: 13개 / 1001~: 14개
+  //  1~5: 5개 / 6~9: 10개 / 10~19: 11개 / 20~29: 12개 / 30~49: 13개 / 50~69: 14개 / 70~99: 15개
+  //  100~199: 16개 / 200~399: 17개 / 400~699: 18개 / 700~999: 19개 / 1000~: 20개
   const WORD_COUNT_STEPS: [number, number][] = [
-    [5, 5], [10, 6], [30, 7], [70, 8], [100, 9],
-    [200, 10], [400, 11], [700, 12], [1000, 13],
+    [5, 5], [9, 10], [19, 11], [29, 12], [49, 13], [69, 14], [99, 15],
+    [199, 16], [399, 17], [699, 18], [999, 19],
   ];
-  const wordsRequired = WORD_COUNT_STEPS.find(([maxLv]) => safeLevel <= maxLv)?.[1] ?? 14;
+  const wordsRequired = WORD_COUNT_STEPS.find(([maxLv]) => safeLevel <= maxLv)?.[1] ?? 20;
 
   // Comfortable Speed Scaling:
   // User requested: High levels have novel-length sentences, so no need to make speed excessively fast!
@@ -112,9 +113,11 @@ export function getLevelConfig(level: number): LevelConfig {
   // Level 5~14: 0.55 (words + daily phrases like "나는 배가 고파", "완전 가을이야")
   // Level 15~34: 0.65 (compound sentences)
   // Level 35~∞: 0.78 (novel-level literary long sentences + words)
-  // 문장은 세 글자 이상 조각이 많아서 30레벨부터 등장
+  // 10~29레벨: 두 글자 조각으로 된 짧은 문장, 30레벨부터: 원래 문장
   let sentenceProbability = 0;
-  if (safeLevel >= 30 && safeLevel < 50) {
+  if (safeLevel >= 10 && safeLevel < 30) {
+    sentenceProbability = 0.3;
+  } else if (safeLevel >= 30 && safeLevel < 50) {
     sentenceProbability = 0.5;
   } else if (safeLevel >= 50 && safeLevel < 100) {
     sentenceProbability = 0.65;
@@ -224,7 +227,9 @@ export function spawnNextWord(
 
     // Start a brand new sentence if none is currently active
     if (shouldSpawnSentence && activeSentences.filter(s => !s.isCompleted).length < 1) {
-      const eligibleTemplates = KOREAN_SENTENCE_TEMPLATES.filter(t => t.tier <= level);
+      const eligibleTemplates = level < 30
+        ? SHORT_SENTENCE_TEMPLATES
+        : KOREAN_SENTENCE_TEMPLATES.filter(t => t.tier <= level);
       if (eligibleTemplates.length > 0) {
         const pool = level >= 35
           ? eligibleTemplates.filter(t => t.category === 'novel' || t.category === 'compound')

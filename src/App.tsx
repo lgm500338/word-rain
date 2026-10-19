@@ -550,23 +550,31 @@ export default function App() {
         );
       }
 
-      // Elegant notification text tailored to the achievement
+      // 알림 문구: 점수는 창의 단어(+1)일 때만 표시
+      const sentenceNow = matchedWord.sentenceId
+        ? activeSentences.find((sn) => sn.id === matchedWord.sentenceId)
+        : undefined;
+      const completesSentence = Boolean(
+        sentenceNow &&
+          sentenceNow.slots.every((sl, idx) => sl.isFilled || idx === matchedWord.sentenceSlotIndex)
+      );
       let notifText = '';
       if (isDragPass) {
-        notifText = `🪄 드래그 패스: ${displayWord}! (+${totalPoints}P)`;
-      } else if (sentenceCompletedPoints > 0) {
-        notifText = `🎉 문장 완성 보너스! +${sentenceCompletedPoints}P (${sentenceTitle})`;
+        notifText = `🪄 드래그 패스: ${displayWord}`;
+      } else if (completesSentence && sentenceNow) {
+        notifText = `🎉 문장 완성! ${sentenceNow.slots
+          .map((sl, idx) => (idx === matchedWord.sentenceSlotIndex ? displayWord : sl.filledWord || sl.canonical))
+          .join(' ')}`;
       } else if (isCreative) {
-        notifText = `✨ 창의 단어: ${displayWord}! (+${totalPoints}P)`;
-      } else if (matchedWord.sentenceId) {
-        notifText = `📝 구절 적립! +${totalPoints}P (${displayWord})`;
+        notifText = `✨ 창의 단어: ${displayWord}`;
       } else {
-        notifText = `격추: ${displayWord}! (+${totalPoints}P)`;
+        notifText = `${displayWord}`;
       }
+      void sentenceTitle;
 
       setLastHitNotification({
         text: notifText,
-        points: sentenceCompletedPoints > 0 ? (totalPoints + sentenceCompletedPoints) : totalPoints,
+        points: totalPoints,
         isCombo: currentCombo >= 5,
       });
 
@@ -594,7 +602,7 @@ export default function App() {
         };
       });
     },
-    [stats.combo, gameState, level, grantRewardStep]
+    [stats.combo, gameState, level, grantRewardStep, activeSentences]
   );
 
   // Input change handler
@@ -712,7 +720,7 @@ export default function App() {
     );
     setLastHitNotification({
       text: '↩️ 되돌리기 발동! (단어 상승 & 감속)',
-      points: 50,
+      points: 0,
     });
     setTimeout(() => setLastHitNotification(null), 1500);
   };
@@ -748,7 +756,7 @@ export default function App() {
     );
     setLastHitNotification({
       text: '🔀 쉬운 단어로 셔플 완료!',
-      points: 50,
+      points: 0,
     });
     setTimeout(() => setLastHitNotification(null), 1500);
   };
@@ -785,7 +793,7 @@ export default function App() {
     }));
     setLastHitNotification({
       text: '🪙 보너스 +200 코인 & 드래그권 +1 충전!',
-      points: 200,
+      points: 0,
     });
     setTimeout(() => setLastHitNotification(null), 1500);
   };

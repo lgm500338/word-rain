@@ -80,9 +80,11 @@ export const TypingInput: React.FC<TypingInputProps> = ({
         <div className="absolute -top-11 left-1/2 -translate-x-1/2 pointer-events-none transition-all duration-300 animate-bounce">
           <div className="px-3.5 py-1 rounded-full bg-gradient-to-r from-cyan-400 to-emerald-400 text-slate-950 font-black text-xs shadow-lg shadow-cyan-500/40 flex items-center gap-1.5 whitespace-nowrap">
             <span>✨ {lastHitNotification.text}</span>
-            <span className="bg-slate-950/20 px-1.5 py-0.2 rounded text-[10px]">
-              +{lastHitNotification.points}점
-            </span>
+            {lastHitNotification.points > 0 && (
+              <span className="bg-slate-950/20 px-1.5 py-0.2 rounded text-[10px]">
+                +{lastHitNotification.points}점
+              </span>
+            )}
           </div>
         </div>
       )}
