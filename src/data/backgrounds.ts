@@ -106,4 +106,4 @@ const PHOTO_IDS = `
 
 export const BACKGROUND_URLS: string[] = PHOTO_IDS.split(/\s+/)
   .filter(Boolean)
-  .map((id) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=1600&q=75`);
+  .map((id) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=1080&q=70`);

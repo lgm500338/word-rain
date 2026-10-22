@@ -23,7 +23,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "1단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.1: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -32,7 +32,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "2단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.2: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -41,7 +41,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "3단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.3: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -50,7 +50,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "4단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.4: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -59,7 +59,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "5단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.5: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -68,7 +68,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "6단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.6: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -77,7 +77,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "7단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.7: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -86,7 +86,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "8단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.8: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -95,7 +95,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "9단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.9: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -104,7 +104,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "10단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.10: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -113,7 +113,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "11단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.11: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -122,7 +122,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "12단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.12: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -131,7 +131,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "13단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.13: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -140,7 +140,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "14단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.14: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -149,7 +149,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "15단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.15: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -158,7 +158,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "16단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.16: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -167,7 +167,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "17단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.17: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -176,7 +176,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "18단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.18: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -185,7 +185,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "19단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.19: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -194,7 +194,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "20단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.20: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -203,7 +203,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "21단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.21: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -212,7 +212,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "22단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.22: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -221,7 +221,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "23단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.23: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -230,7 +230,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "24단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.24: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -239,7 +239,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "25단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.25: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -248,7 +248,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "26단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.26: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -257,7 +257,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "27단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.27: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -266,7 +266,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "28단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.28: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -275,7 +275,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "29단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.29: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -284,7 +284,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "30단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.30: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -293,7 +293,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "31단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.31: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -302,7 +302,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "32단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.32: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -311,7 +311,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "33단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.33: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -320,7 +320,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "34단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.34: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -329,7 +329,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "35단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.35: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -338,7 +338,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "36단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.36: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -347,7 +347,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "37단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.37: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -356,7 +356,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "38단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.38: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -365,7 +365,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "39단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.39: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -374,7 +374,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "40단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.40: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -383,7 +383,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "41단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.41: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -392,7 +392,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "42단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.42: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -401,7 +401,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "43단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.43: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -410,7 +410,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "44단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.44: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -419,7 +419,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "45단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.45: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -428,7 +428,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "46단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.46: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -437,7 +437,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "47단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.47: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -446,7 +446,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "48단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.48: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -455,7 +455,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "49단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.49: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -464,7 +464,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "50단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.50: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -473,7 +473,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "51단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.51: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -482,7 +482,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "52단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.52: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -491,7 +491,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "53단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.53: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -500,7 +500,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "54단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.54: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -509,7 +509,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "55단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.55: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -518,7 +518,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "56단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.56: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -527,7 +527,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "57단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.57: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -536,7 +536,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "58단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.58: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -545,7 +545,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "59단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.59: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -554,7 +554,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "60단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.60: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -563,7 +563,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "61단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.61: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -572,7 +572,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "62단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.62: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -581,7 +581,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "63단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.63: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -590,7 +590,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "64단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.64: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -599,7 +599,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "65단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.65: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -608,7 +608,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "66단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.66: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -617,7 +617,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "67단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.67: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -626,7 +626,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "68단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.68: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -635,7 +635,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "69단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.69: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -644,7 +644,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "70단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.70: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -653,7 +653,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "71단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.71: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -662,7 +662,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "72단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.72: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -671,7 +671,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "73단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.73: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -680,7 +680,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "74단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.74: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -689,7 +689,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "75단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.75: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -698,7 +698,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "76단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.76: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -707,7 +707,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "77단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.77: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -716,7 +716,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "78단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.78: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -725,7 +725,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "79단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.79: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -734,7 +734,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "80단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.80: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -743,7 +743,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "81단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.81: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -752,7 +752,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "82단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.82: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -761,7 +761,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "83단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.83: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -770,7 +770,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "84단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.84: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -779,7 +779,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "85단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.85: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -788,7 +788,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "86단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.86: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -797,7 +797,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "87단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.87: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -806,7 +806,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "88단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.88: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -815,7 +815,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "89단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.89: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -824,7 +824,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "90단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.90: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -833,7 +833,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "91단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.91: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -842,7 +842,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "92단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.92: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -851,7 +851,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "93단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.93: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -860,7 +860,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "94단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.94: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -869,7 +869,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "95단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.95: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -878,7 +878,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "96단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.96: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -887,7 +887,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "97단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.97: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -896,7 +896,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "98단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.98: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -905,7 +905,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "99단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.99: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -914,7 +914,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "스위스 알프스 체르마트 마터호른 & 리펠제 호수",
     "nameEn": "Matterhorn & Riffelsee Lake, Swiss Alps",
     "location": "만년설이 비치는 고요한 고산 호수와 은빛 첨봉의 웅장함",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(6, 182, 212, 0.2)"
   },
@@ -923,7 +923,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "101단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.101: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -932,7 +932,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "102단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.102: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -941,7 +941,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "103단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.103: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -950,7 +950,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "104단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.104: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -959,7 +959,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "105단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.105: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -968,7 +968,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "106단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.106: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -977,7 +977,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "107단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.107: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -986,7 +986,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "108단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.108: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -995,7 +995,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "109단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.109: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1004,7 +1004,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "110단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.110: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1013,7 +1013,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "111단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.111: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1022,7 +1022,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "112단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.112: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1031,7 +1031,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "113단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.113: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1040,7 +1040,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "114단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.114: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1049,7 +1049,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "115단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.115: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1058,7 +1058,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "116단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.116: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1067,7 +1067,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "117단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.117: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1076,7 +1076,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "118단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.118: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1085,7 +1085,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "119단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.119: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1094,7 +1094,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "120단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.120: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1103,7 +1103,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "121단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.121: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1112,7 +1112,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "122단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.122: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1121,7 +1121,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "123단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.123: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1130,7 +1130,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "124단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.124: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1139,7 +1139,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "125단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.125: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1148,7 +1148,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "126단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.126: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1157,7 +1157,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "127단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.127: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1166,7 +1166,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "128단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.128: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1175,7 +1175,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "129단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.129: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1184,7 +1184,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "130단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.130: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1193,7 +1193,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "131단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.131: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1202,7 +1202,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "132단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.132: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1211,7 +1211,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "133단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.133: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1220,7 +1220,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "134단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.134: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1229,7 +1229,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "135단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.135: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1238,7 +1238,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "136단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.136: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1247,7 +1247,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "137단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.137: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1256,7 +1256,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "138단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.138: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1265,7 +1265,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "139단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.139: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1274,7 +1274,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "140단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.140: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1283,7 +1283,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "141단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.141: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1292,7 +1292,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "142단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.142: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1301,7 +1301,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "143단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.143: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1310,7 +1310,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "144단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.144: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1319,7 +1319,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "145단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.145: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1328,7 +1328,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "146단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.146: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1337,7 +1337,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "147단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.147: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1346,7 +1346,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "148단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.148: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1355,7 +1355,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "149단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.149: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1364,7 +1364,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "150단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.150: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1373,7 +1373,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "151단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.151: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1382,7 +1382,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "152단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.152: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1391,7 +1391,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "153단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.153: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1400,7 +1400,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "154단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.154: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1409,7 +1409,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "155단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.155: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1418,7 +1418,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "156단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.156: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1427,7 +1427,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "157단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.157: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1436,7 +1436,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "158단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.158: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1445,7 +1445,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "159단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.159: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1454,7 +1454,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "160단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.160: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1463,7 +1463,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "161단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.161: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1472,7 +1472,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "162단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.162: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1481,7 +1481,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "163단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.163: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1490,7 +1490,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "164단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.164: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1499,7 +1499,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "165단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.165: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1508,7 +1508,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "166단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.166: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1517,7 +1517,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "167단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.167: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1526,7 +1526,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "168단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.168: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1535,7 +1535,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "169단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.169: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1544,7 +1544,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "170단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.170: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1553,7 +1553,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "171단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.171: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1562,7 +1562,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "172단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.172: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1571,7 +1571,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "173단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.173: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1580,7 +1580,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "174단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.174: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1589,7 +1589,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "175단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.175: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1598,7 +1598,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "176단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.176: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1607,7 +1607,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "177단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.177: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1616,7 +1616,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "178단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.178: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1625,7 +1625,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "179단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.179: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1634,7 +1634,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "180단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.180: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1643,7 +1643,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "181단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.181: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1652,7 +1652,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "182단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.182: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1661,7 +1661,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "183단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.183: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1670,7 +1670,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "184단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.184: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1679,7 +1679,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "185단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.185: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1688,7 +1688,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "186단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.186: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1697,7 +1697,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "187단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.187: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1706,7 +1706,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "188단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.188: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1715,7 +1715,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "189단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.189: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1724,7 +1724,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "190단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.190: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1733,7 +1733,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "191단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.191: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1742,7 +1742,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "192단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.192: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1751,7 +1751,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "193단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.193: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1760,7 +1760,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "194단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.194: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1769,7 +1769,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "195단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.195: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1778,7 +1778,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "196단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.196: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1787,7 +1787,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "197단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.197: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1796,7 +1796,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "198단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.198: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1805,7 +1805,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "199단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.199: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1814,7 +1814,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "미국 그랜드 캐니언 국립공원 노스림 협곡",
     "nameEn": "Grand Canyon National Park North Rim, USA",
     "location": "수억 년 세월의 지층이 빚어낸 붉은 사암의 경이로운 대협곡",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(249, 115, 22, 0.2)"
   },
@@ -1823,7 +1823,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "201단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.201: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1832,7 +1832,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "202단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.202: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1841,7 +1841,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "203단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.203: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1850,7 +1850,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "204단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.204: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1859,7 +1859,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "205단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.205: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1868,7 +1868,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "206단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.206: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1877,7 +1877,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "207단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.207: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1886,7 +1886,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "208단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.208: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1895,7 +1895,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "209단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.209: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1904,7 +1904,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "210단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.210: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1913,7 +1913,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "211단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.211: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1922,7 +1922,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "212단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.212: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1931,7 +1931,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "213단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.213: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1940,7 +1940,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "214단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.214: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1949,7 +1949,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "215단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.215: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1958,7 +1958,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "216단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.216: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1967,7 +1967,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "217단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.217: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1976,7 +1976,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "218단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.218: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1985,7 +1985,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "219단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.219: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -1994,7 +1994,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "220단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.220: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2003,7 +2003,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "221단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.221: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2012,7 +2012,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "222단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.222: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2021,7 +2021,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "223단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.223: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2030,7 +2030,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "224단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.224: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2039,7 +2039,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "225단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.225: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2048,7 +2048,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "226단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.226: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2057,7 +2057,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "227단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.227: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2066,7 +2066,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "228단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.228: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2075,7 +2075,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "229단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.229: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2084,7 +2084,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "230단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.230: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2093,7 +2093,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "231단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.231: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2102,7 +2102,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "232단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.232: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2111,7 +2111,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "233단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.233: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2120,7 +2120,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "234단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.234: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2129,7 +2129,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "235단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.235: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2138,7 +2138,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "236단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.236: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2147,7 +2147,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "237단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.237: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2156,7 +2156,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "238단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.238: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2165,7 +2165,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "239단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.239: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2174,7 +2174,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "240단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.240: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2183,7 +2183,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "241단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.241: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2192,7 +2192,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "242단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.242: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2201,7 +2201,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "243단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.243: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2210,7 +2210,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "244단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.244: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2219,7 +2219,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "245단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.245: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2228,7 +2228,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "246단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.246: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2237,7 +2237,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "247단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.247: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2246,7 +2246,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "248단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.248: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2255,7 +2255,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "249단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.249: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2264,7 +2264,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "250단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.250: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2273,7 +2273,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "251단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.251: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2282,7 +2282,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "252단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.252: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2291,7 +2291,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "253단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.253: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2300,7 +2300,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "254단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.254: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2309,7 +2309,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "255단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.255: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2318,7 +2318,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "256단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.256: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2327,7 +2327,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "257단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.257: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2336,7 +2336,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "258단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.258: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2345,7 +2345,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "259단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.259: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2354,7 +2354,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "260단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.260: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2363,7 +2363,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "261단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.261: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2372,7 +2372,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "262단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.262: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2381,7 +2381,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "263단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.263: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2390,7 +2390,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "264단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.264: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2399,7 +2399,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "265단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.265: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2408,7 +2408,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "266단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.266: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2417,7 +2417,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "267단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.267: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2426,7 +2426,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "268단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.268: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2435,7 +2435,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "269단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.269: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2444,7 +2444,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "270단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.270: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2453,7 +2453,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "271단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.271: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2462,7 +2462,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "272단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.272: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2471,7 +2471,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "273단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.273: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2480,7 +2480,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "274단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.274: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2489,7 +2489,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "275단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.275: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2498,7 +2498,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "276단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.276: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2507,7 +2507,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "277단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.277: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2516,7 +2516,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "278단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.278: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2525,7 +2525,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "279단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.279: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2534,7 +2534,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "280단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.280: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2543,7 +2543,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "281단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.281: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2552,7 +2552,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "282단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.282: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2561,7 +2561,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "283단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.283: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2570,7 +2570,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "284단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.284: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2579,7 +2579,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "285단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.285: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2588,7 +2588,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "286단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.286: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2597,7 +2597,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "287단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.287: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2606,7 +2606,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "288단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.288: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2615,7 +2615,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "289단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.289: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2624,7 +2624,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "290단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.290: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2633,7 +2633,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "291단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.291: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2642,7 +2642,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "292단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.292: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2651,7 +2651,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "293단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.293: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2660,7 +2660,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "294단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.294: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2669,7 +2669,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "295단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.295: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2678,7 +2678,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "296단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.296: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2687,7 +2687,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "297단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.297: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2696,7 +2696,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "298단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.298: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2705,7 +2705,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "299단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.299: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2714,7 +2714,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "이탈리아 베네치아 산마르코 광장 & 대운하",
     "nameEn": "Venice Grand Canal & St. Mark Square, Italy",
     "location": "푸른 물결 위를 미끄러지는 곤돌라와 고풍스러운 대운하 수상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#3b82f6",
     "ambientColor": "rgba(59, 130, 246, 0.2)"
   },
@@ -2723,7 +2723,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "301단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.301: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2732,7 +2732,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "302단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.302: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2741,7 +2741,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "303단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.303: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2750,7 +2750,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "304단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.304: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2759,7 +2759,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "305단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.305: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2768,7 +2768,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "306단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.306: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2777,7 +2777,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "307단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.307: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2786,7 +2786,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "308단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.308: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2795,7 +2795,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "309단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.309: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2804,7 +2804,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "310단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.310: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2813,7 +2813,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "311단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.311: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2822,7 +2822,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "312단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.312: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2831,7 +2831,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "313단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.313: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2840,7 +2840,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "314단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.314: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2849,7 +2849,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "315단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.315: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2858,7 +2858,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "316단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.316: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2867,7 +2867,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "317단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.317: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2876,7 +2876,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "318단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.318: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2885,7 +2885,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "319단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.319: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2894,7 +2894,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "320단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.320: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2903,7 +2903,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "321단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.321: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2912,7 +2912,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "322단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.322: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2921,7 +2921,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "323단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.323: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2930,7 +2930,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "324단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.324: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2939,7 +2939,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "325단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.325: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2948,7 +2948,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "326단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.326: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2957,7 +2957,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "327단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.327: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2966,7 +2966,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "328단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.328: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2975,7 +2975,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "329단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.329: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2984,7 +2984,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "330단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.330: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -2993,7 +2993,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "331단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.331: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3002,7 +3002,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "332단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.332: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3011,7 +3011,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "333단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.333: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3020,7 +3020,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "334단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.334: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3029,7 +3029,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "335단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.335: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3038,7 +3038,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "336단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.336: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3047,7 +3047,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "337단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.337: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3056,7 +3056,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "338단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.338: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3065,7 +3065,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "339단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.339: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3074,7 +3074,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "340단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.340: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3083,7 +3083,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "341단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.341: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3092,7 +3092,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "342단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.342: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3101,7 +3101,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "343단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.343: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3110,7 +3110,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "344단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.344: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3119,7 +3119,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "345단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.345: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3128,7 +3128,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "346단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.346: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3137,7 +3137,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "347단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.347: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3146,7 +3146,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "348단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.348: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3155,7 +3155,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "349단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.349: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3164,7 +3164,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "350단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.350: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3173,7 +3173,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "351단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.351: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3182,7 +3182,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "352단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.352: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3191,7 +3191,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "353단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.353: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3200,7 +3200,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "354단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.354: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3209,7 +3209,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "355단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.355: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3218,7 +3218,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "356단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.356: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3227,7 +3227,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "357단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.357: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3236,7 +3236,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "358단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.358: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3245,7 +3245,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "359단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.359: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3254,7 +3254,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "360단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.360: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3263,7 +3263,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "361단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.361: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3272,7 +3272,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "362단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.362: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3281,7 +3281,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "363단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.363: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3290,7 +3290,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "364단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.364: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3299,7 +3299,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "365단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.365: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3308,7 +3308,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "366단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.366: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3317,7 +3317,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "367단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.367: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3326,7 +3326,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "368단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.368: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3335,7 +3335,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "369단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.369: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3344,7 +3344,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "370단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.370: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3353,7 +3353,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "371단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.371: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3362,7 +3362,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "372단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.372: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3371,7 +3371,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "373단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.373: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3380,7 +3380,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "374단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.374: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3389,7 +3389,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "375단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.375: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3398,7 +3398,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "376단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.376: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3407,7 +3407,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "377단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.377: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3416,7 +3416,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "378단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.378: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3425,7 +3425,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "379단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.379: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3434,7 +3434,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "380단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.380: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3443,7 +3443,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "381단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.381: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3452,7 +3452,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "382단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.382: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3461,7 +3461,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "383단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.383: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3470,7 +3470,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "384단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.384: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3479,7 +3479,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "385단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.385: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3488,7 +3488,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "386단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.386: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3497,7 +3497,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "387단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.387: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3506,7 +3506,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "388단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.388: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3515,7 +3515,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "389단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.389: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3524,7 +3524,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "390단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.390: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3533,7 +3533,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "391단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.391: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3542,7 +3542,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "392단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.392: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3551,7 +3551,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "393단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.393: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3560,7 +3560,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "394단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.394: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3569,7 +3569,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "395단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.395: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3578,7 +3578,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "396단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.396: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3587,7 +3587,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "397단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.397: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3596,7 +3596,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "398단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.398: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3605,7 +3605,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "399단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.399: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3614,7 +3614,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "페루 잉카의 공중도시 마추픽추 & 안데스 봉우리",
     "nameEn": "Machu Picchu & Andean Peaks, Peru",
     "location": "해발 2,430m 구름 속에 솟은 신비로운 잉카 제국의 공중 요새",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(16, 185, 129, 0.2)"
   },
@@ -3623,7 +3623,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "401단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.401: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3632,7 +3632,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "402단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.402: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3641,7 +3641,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "403단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.403: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3650,7 +3650,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "404단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.404: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3659,7 +3659,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "405단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.405: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3668,7 +3668,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "406단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.406: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3677,7 +3677,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "407단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.407: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3686,7 +3686,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "408단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.408: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3695,7 +3695,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "409단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.409: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3704,7 +3704,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "410단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.410: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3713,7 +3713,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "411단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.411: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3722,7 +3722,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "412단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.412: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3731,7 +3731,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "413단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.413: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3740,7 +3740,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "414단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.414: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3749,7 +3749,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "415단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.415: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3758,7 +3758,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "416단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.416: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3767,7 +3767,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "417단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.417: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3776,7 +3776,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "418단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.418: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3785,7 +3785,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "419단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.419: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3794,7 +3794,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "420단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.420: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3803,7 +3803,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "421단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.421: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3812,7 +3812,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "422단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.422: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3821,7 +3821,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "423단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.423: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3830,7 +3830,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "424단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.424: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3839,7 +3839,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "425단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.425: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3848,7 +3848,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "426단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.426: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3857,7 +3857,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "427단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.427: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3866,7 +3866,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "428단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.428: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3875,7 +3875,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "429단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.429: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3884,7 +3884,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "430단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.430: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3893,7 +3893,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "431단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.431: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3902,7 +3902,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "432단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.432: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3911,7 +3911,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "433단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.433: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3920,7 +3920,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "434단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.434: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3929,7 +3929,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "435단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.435: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3938,7 +3938,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "436단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.436: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3947,7 +3947,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "437단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.437: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3956,7 +3956,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "438단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.438: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3965,7 +3965,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "439단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.439: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3974,7 +3974,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "440단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.440: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3983,7 +3983,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "441단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.441: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -3992,7 +3992,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "442단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.442: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4001,7 +4001,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "443단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.443: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4010,7 +4010,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "444단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.444: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4019,7 +4019,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "445단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.445: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4028,7 +4028,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "446단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.446: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4037,7 +4037,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "447단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.447: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4046,7 +4046,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "448단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.448: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4055,7 +4055,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "449단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.449: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4064,7 +4064,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "450단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.450: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4073,7 +4073,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "451단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.451: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4082,7 +4082,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "452단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.452: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4091,7 +4091,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "453단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.453: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4100,7 +4100,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "454단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.454: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4109,7 +4109,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "455단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.455: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4118,7 +4118,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "456단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.456: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4127,7 +4127,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "457단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.457: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4136,7 +4136,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "458단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.458: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4145,7 +4145,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "459단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.459: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4154,7 +4154,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "460단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.460: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4163,7 +4163,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "461단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.461: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4172,7 +4172,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "462단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.462: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4181,7 +4181,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "463단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.463: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4190,7 +4190,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "464단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.464: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4199,7 +4199,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "465단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.465: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4208,7 +4208,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "466단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.466: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4217,7 +4217,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "467단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.467: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4226,7 +4226,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "468단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.468: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4235,7 +4235,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "469단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.469: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4244,7 +4244,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "470단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.470: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4253,7 +4253,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "471단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.471: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4262,7 +4262,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "472단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.472: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4271,7 +4271,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "473단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.473: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4280,7 +4280,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "474단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.474: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4289,7 +4289,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "475단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.475: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4298,7 +4298,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "476단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.476: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4307,7 +4307,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "477단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.477: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4316,7 +4316,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "478단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.478: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4325,7 +4325,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "479단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.479: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4334,7 +4334,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "480단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.480: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4343,7 +4343,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "481단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.481: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4352,7 +4352,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "482단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.482: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4361,7 +4361,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "483단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.483: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4370,7 +4370,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "484단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.484: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4379,7 +4379,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "485단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.485: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4388,7 +4388,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "486단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.486: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4397,7 +4397,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "487단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.487: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4406,7 +4406,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "488단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.488: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4415,7 +4415,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "489단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.489: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4424,7 +4424,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "490단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.490: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4433,7 +4433,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "491단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.491: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4442,7 +4442,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "492단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.492: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4451,7 +4451,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "493단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.493: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4460,7 +4460,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "494단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.494: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4469,7 +4469,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "495단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.495: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4478,7 +4478,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "496단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.496: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4487,7 +4487,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "497단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.497: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4496,7 +4496,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "498단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.498: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4505,7 +4505,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "499단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.499: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4514,7 +4514,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "아이슬란드 요쿨살론 다이아몬드 비치 빙하 호수",
     "nameEn": "Jokulsarlon Glacier Lagoon & Diamond Beach, Iceland",
     "location": "화산 검은 모래 해변 위에 보석처럼 빛나는 빙하 조각들의 영롱한 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#38bdf8",
     "ambientColor": "rgba(56, 189, 248, 0.2)"
   },
@@ -4523,7 +4523,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "501단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.501: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4532,7 +4532,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "502단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.502: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4541,7 +4541,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "503단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.503: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4550,7 +4550,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "504단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.504: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4559,7 +4559,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "505단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.505: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4568,7 +4568,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "506단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.506: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4577,7 +4577,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "507단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.507: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4586,7 +4586,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "508단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.508: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4595,7 +4595,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "509단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.509: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4604,7 +4604,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "510단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.510: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4613,7 +4613,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "511단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.511: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4622,7 +4622,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "512단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.512: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4631,7 +4631,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "513단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.513: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4640,7 +4640,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "514단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.514: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4649,7 +4649,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "515단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.515: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4658,7 +4658,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "516단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.516: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4667,7 +4667,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "517단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.517: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4676,7 +4676,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "518단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.518: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4685,7 +4685,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "519단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.519: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4694,7 +4694,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "520단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.520: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4703,7 +4703,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "521단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.521: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4712,7 +4712,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "522단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.522: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4721,7 +4721,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "523단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.523: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4730,7 +4730,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "524단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.524: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4739,7 +4739,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "525단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.525: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4748,7 +4748,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "526단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.526: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4757,7 +4757,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "527단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.527: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4766,7 +4766,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "528단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.528: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4775,7 +4775,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "529단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.529: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4784,7 +4784,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "530단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.530: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4793,7 +4793,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "531단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.531: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4802,7 +4802,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "532단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.532: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4811,7 +4811,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "533단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.533: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4820,7 +4820,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "534단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.534: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4829,7 +4829,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "535단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.535: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4838,7 +4838,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "536단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.536: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4847,7 +4847,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "537단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.537: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4856,7 +4856,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "538단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.538: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4865,7 +4865,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "539단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.539: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4874,7 +4874,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "540단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.540: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4883,7 +4883,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "541단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.541: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4892,7 +4892,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "542단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.542: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4901,7 +4901,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "543단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.543: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4910,7 +4910,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "544단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.544: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4919,7 +4919,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "545단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.545: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4928,7 +4928,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "546단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.546: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4937,7 +4937,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "547단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.547: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4946,7 +4946,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "548단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.548: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4955,7 +4955,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "549단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.549: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4964,7 +4964,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "550단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.550: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4973,7 +4973,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "551단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.551: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4982,7 +4982,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "552단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.552: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -4991,7 +4991,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "553단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.553: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5000,7 +5000,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "554단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.554: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5009,7 +5009,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "555단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.555: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5018,7 +5018,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "556단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.556: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5027,7 +5027,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "557단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.557: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5036,7 +5036,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "558단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.558: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5045,7 +5045,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "559단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.559: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5054,7 +5054,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "560단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.560: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5063,7 +5063,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "561단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.561: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5072,7 +5072,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "562단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.562: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5081,7 +5081,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "563단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.563: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5090,7 +5090,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "564단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.564: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5099,7 +5099,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "565단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.565: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5108,7 +5108,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "566단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.566: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5117,7 +5117,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "567단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.567: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5126,7 +5126,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "568단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.568: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5135,7 +5135,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "569단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.569: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5144,7 +5144,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "570단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.570: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5153,7 +5153,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "571단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.571: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5162,7 +5162,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "572단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.572: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5171,7 +5171,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "573단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.573: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5180,7 +5180,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "574단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.574: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5189,7 +5189,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "575단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.575: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5198,7 +5198,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "576단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.576: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5207,7 +5207,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "577단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.577: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5216,7 +5216,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "578단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.578: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5225,7 +5225,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "579단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.579: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5234,7 +5234,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "580단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.580: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5243,7 +5243,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "581단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.581: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5252,7 +5252,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "582단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.582: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5261,7 +5261,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "583단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.583: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5270,7 +5270,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "584단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.584: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5279,7 +5279,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "585단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.585: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5288,7 +5288,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "586단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.586: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5297,7 +5297,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "587단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.587: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5306,7 +5306,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "588단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.588: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5315,7 +5315,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "589단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.589: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5324,7 +5324,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "590단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.590: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5333,7 +5333,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "591단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.591: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5342,7 +5342,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "592단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.592: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5351,7 +5351,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "593단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.593: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5360,7 +5360,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "594단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.594: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5369,7 +5369,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "595단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.595: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5378,7 +5378,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "596단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.596: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5387,7 +5387,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "597단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.597: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5396,7 +5396,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "598단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.598: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5405,7 +5405,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "599단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.599: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5414,7 +5414,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "스페인 바르셀로나 사그라다 파밀리아 대성당",
     "nameEn": "Sagrada Familia Basilica, Barcelona, Spain",
     "location": "가우디의 영혼이 깃든 숲을 닮은 거대한 석조 기둥과 스테인드글라스",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#eab308",
     "ambientColor": "rgba(234, 179, 8, 0.2)"
   },
@@ -5423,7 +5423,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "601단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.601: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5432,7 +5432,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "602단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.602: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5441,7 +5441,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "603단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.603: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5450,7 +5450,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "604단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.604: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5459,7 +5459,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "605단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.605: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5468,7 +5468,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "606단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.606: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5477,7 +5477,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "607단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.607: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5486,7 +5486,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "608단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.608: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5495,7 +5495,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "609단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.609: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5504,7 +5504,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "610단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.610: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5513,7 +5513,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "611단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.611: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5522,7 +5522,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "612단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.612: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5531,7 +5531,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "613단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.613: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5540,7 +5540,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "614단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.614: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5549,7 +5549,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "615단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.615: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5558,7 +5558,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "616단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.616: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5567,7 +5567,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "617단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.617: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5576,7 +5576,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "618단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.618: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5585,7 +5585,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "619단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.619: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5594,7 +5594,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "620단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.620: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5603,7 +5603,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "621단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.621: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5612,7 +5612,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "622단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.622: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5621,7 +5621,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "623단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.623: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5630,7 +5630,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "624단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.624: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5639,7 +5639,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "625단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.625: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5648,7 +5648,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "626단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.626: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5657,7 +5657,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "627단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.627: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5666,7 +5666,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "628단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.628: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5675,7 +5675,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "629단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.629: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5684,7 +5684,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "630단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.630: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5693,7 +5693,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "631단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.631: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5702,7 +5702,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "632단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.632: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5711,7 +5711,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "633단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.633: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5720,7 +5720,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "634단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.634: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5729,7 +5729,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "635단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.635: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5738,7 +5738,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "636단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.636: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5747,7 +5747,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "637단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.637: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5756,7 +5756,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "638단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.638: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5765,7 +5765,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "639단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.639: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5774,7 +5774,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "640단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.640: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5783,7 +5783,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "641단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.641: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5792,7 +5792,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "642단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.642: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5801,7 +5801,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "643단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.643: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5810,7 +5810,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "644단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.644: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5819,7 +5819,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "645단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.645: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5828,7 +5828,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "646단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.646: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5837,7 +5837,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "647단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.647: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5846,7 +5846,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "648단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.648: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5855,7 +5855,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "649단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.649: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5864,7 +5864,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "650단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.650: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5873,7 +5873,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "651단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.651: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5882,7 +5882,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "652단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.652: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5891,7 +5891,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "653단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.653: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5900,7 +5900,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "654단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.654: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5909,7 +5909,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "655단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.655: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5918,7 +5918,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "656단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.656: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5927,7 +5927,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "657단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.657: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5936,7 +5936,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "658단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.658: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5945,7 +5945,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "659단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.659: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5954,7 +5954,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "660단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.660: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5963,7 +5963,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "661단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.661: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5972,7 +5972,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "662단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.662: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5981,7 +5981,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "663단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.663: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5990,7 +5990,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "664단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.664: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -5999,7 +5999,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "665단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.665: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6008,7 +6008,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "666단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.666: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6017,7 +6017,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "667단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.667: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6026,7 +6026,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "668단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.668: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6035,7 +6035,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "669단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.669: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6044,7 +6044,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "670단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.670: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6053,7 +6053,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "671단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.671: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6062,7 +6062,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "672단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.672: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6071,7 +6071,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "673단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.673: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6080,7 +6080,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "674단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.674: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6089,7 +6089,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "675단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.675: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6098,7 +6098,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "676단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.676: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6107,7 +6107,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "677단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.677: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6116,7 +6116,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "678단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.678: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6125,7 +6125,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "679단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.679: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6134,7 +6134,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "680단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.680: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6143,7 +6143,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "681단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.681: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6152,7 +6152,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "682단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.682: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6161,7 +6161,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "683단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.683: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6170,7 +6170,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "684단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.684: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6179,7 +6179,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "685단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.685: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6188,7 +6188,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "686단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.686: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6197,7 +6197,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "687단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.687: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6206,7 +6206,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "688단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.688: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6215,7 +6215,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "689단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.689: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6224,7 +6224,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "690단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.690: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6233,7 +6233,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "691단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.691: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6242,7 +6242,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "692단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.692: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6251,7 +6251,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "693단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.693: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6260,7 +6260,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "694단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.694: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6269,7 +6269,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "695단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.695: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6278,7 +6278,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "696단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.696: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6287,7 +6287,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "697단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.697: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6296,7 +6296,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "698단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.698: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6305,7 +6305,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "699단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.699: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6314,7 +6314,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "호주 퀸즐랜드 그레이트 배리어 리프 산호 바다",
     "nameEn": "Great Barrier Reef Ocean, Australia",
     "location": "우주에서도 보이는 지구 최대의 에메랄드빛 산호초 군락과 청정 바다",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0284c7",
     "ambientColor": "rgba(2, 132, 199, 0.2)"
   },
@@ -6323,7 +6323,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "701단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.701: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6332,7 +6332,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "702단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.702: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6341,7 +6341,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "703단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.703: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6350,7 +6350,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "704단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.704: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6359,7 +6359,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "705단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.705: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6368,7 +6368,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "706단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.706: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6377,7 +6377,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "707단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.707: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6386,7 +6386,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "708단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.708: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6395,7 +6395,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "709단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.709: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6404,7 +6404,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "710단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.710: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6413,7 +6413,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "711단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.711: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6422,7 +6422,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "712단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.712: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6431,7 +6431,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "713단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.713: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6440,7 +6440,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "714단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.714: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6449,7 +6449,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "715단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.715: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6458,7 +6458,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "716단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.716: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6467,7 +6467,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "717단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.717: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6476,7 +6476,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "718단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.718: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6485,7 +6485,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "719단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.719: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6494,7 +6494,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "720단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.720: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6503,7 +6503,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "721단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.721: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6512,7 +6512,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "722단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.722: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6521,7 +6521,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "723단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.723: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6530,7 +6530,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "724단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.724: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6539,7 +6539,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "725단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.725: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6548,7 +6548,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "726단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.726: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6557,7 +6557,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "727단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.727: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6566,7 +6566,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "728단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.728: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6575,7 +6575,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "729단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.729: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6584,7 +6584,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "730단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.730: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6593,7 +6593,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "731단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.731: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6602,7 +6602,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "732단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.732: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6611,7 +6611,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "733단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.733: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6620,7 +6620,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "734단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.734: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6629,7 +6629,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "735단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.735: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6638,7 +6638,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "736단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.736: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6647,7 +6647,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "737단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.737: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6656,7 +6656,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "738단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.738: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6665,7 +6665,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "739단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.739: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6674,7 +6674,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "740단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.740: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6683,7 +6683,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "741단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.741: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6692,7 +6692,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "742단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.742: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6701,7 +6701,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "743단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.743: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6710,7 +6710,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "744단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.744: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6719,7 +6719,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "745단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.745: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6728,7 +6728,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "746단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.746: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6737,7 +6737,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "747단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.747: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6746,7 +6746,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "748단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.748: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6755,7 +6755,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "749단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.749: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6764,7 +6764,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "750단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.750: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6773,7 +6773,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "751단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.751: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6782,7 +6782,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "752단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.752: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6791,7 +6791,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "753단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.753: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6800,7 +6800,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "754단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.754: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6809,7 +6809,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "755단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.755: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6818,7 +6818,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "756단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.756: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6827,7 +6827,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "757단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.757: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6836,7 +6836,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "758단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.758: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6845,7 +6845,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "759단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.759: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6854,7 +6854,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "760단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.760: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6863,7 +6863,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "761단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.761: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6872,7 +6872,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "762단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.762: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6881,7 +6881,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "763단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.763: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6890,7 +6890,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "764단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.764: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6899,7 +6899,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "765단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.765: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6908,7 +6908,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "766단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.766: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6917,7 +6917,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "767단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.767: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6926,7 +6926,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "768단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.768: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6935,7 +6935,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "769단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.769: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6944,7 +6944,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "770단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.770: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6953,7 +6953,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "771단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.771: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6962,7 +6962,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "772단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.772: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6971,7 +6971,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "773단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.773: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6980,7 +6980,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "774단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.774: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6989,7 +6989,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "775단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.775: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -6998,7 +6998,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "776단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.776: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7007,7 +7007,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "777단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.777: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7016,7 +7016,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "778단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.778: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7025,7 +7025,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "779단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.779: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7034,7 +7034,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "780단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.780: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7043,7 +7043,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "781단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.781: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7052,7 +7052,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "782단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.782: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7061,7 +7061,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "783단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.783: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7070,7 +7070,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "784단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.784: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7079,7 +7079,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "785단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.785: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7088,7 +7088,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "786단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.786: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7097,7 +7097,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "787단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.787: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7106,7 +7106,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "788단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.788: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7115,7 +7115,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "789단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.789: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7124,7 +7124,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "790단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.790: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7133,7 +7133,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "791단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.791: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7142,7 +7142,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "792단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.792: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7151,7 +7151,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "793단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.793: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7160,7 +7160,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "794단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.794: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7169,7 +7169,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "795단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.795: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7178,7 +7178,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "796단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.796: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7187,7 +7187,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "797단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.797: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7196,7 +7196,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "798단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.798: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7205,7 +7205,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "799단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.799: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7214,7 +7214,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "이집트 기자 피라미드 & 황금빛 대스핑크스",
     "nameEn": "Giza Pyramids & The Great Sphinx, Egypt",
     "location": "4,500년 인류 문명의 불멸을 증언하는 사막 위 장엄한 석조 기념비",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#d97706",
     "ambientColor": "rgba(217, 119, 6, 0.2)"
   },
@@ -7223,7 +7223,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "801단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.801: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7232,7 +7232,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "802단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.802: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7241,7 +7241,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "803단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.803: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7250,7 +7250,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "804단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.804: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7259,7 +7259,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "805단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.805: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7268,7 +7268,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "806단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.806: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7277,7 +7277,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "807단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.807: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7286,7 +7286,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "808단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.808: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7295,7 +7295,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "809단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.809: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7304,7 +7304,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "810단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.810: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7313,7 +7313,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "811단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.811: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7322,7 +7322,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "812단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.812: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7331,7 +7331,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "813단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.813: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7340,7 +7340,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "814단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.814: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7349,7 +7349,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "815단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.815: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7358,7 +7358,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "816단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.816: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7367,7 +7367,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "817단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.817: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7376,7 +7376,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "818단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.818: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7385,7 +7385,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "819단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.819: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7394,7 +7394,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "820단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.820: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7403,7 +7403,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "821단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.821: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7412,7 +7412,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "822단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.822: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7421,7 +7421,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "823단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.823: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7430,7 +7430,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "824단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.824: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7439,7 +7439,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "825단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.825: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7448,7 +7448,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "826단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.826: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7457,7 +7457,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "827단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.827: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7466,7 +7466,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "828단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.828: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7475,7 +7475,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "829단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.829: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7484,7 +7484,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "830단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.830: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7493,7 +7493,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "831단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.831: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7502,7 +7502,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "832단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.832: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7511,7 +7511,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "833단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.833: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7520,7 +7520,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "834단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.834: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7529,7 +7529,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "835단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.835: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7538,7 +7538,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "836단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.836: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7547,7 +7547,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "837단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.837: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7556,7 +7556,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "838단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.838: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7565,7 +7565,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "839단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.839: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7574,7 +7574,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "840단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.840: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7583,7 +7583,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "841단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.841: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7592,7 +7592,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "842단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.842: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7601,7 +7601,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "843단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.843: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7610,7 +7610,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "844단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.844: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7619,7 +7619,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "845단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.845: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7628,7 +7628,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "846단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.846: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7637,7 +7637,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "847단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.847: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7646,7 +7646,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "848단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.848: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7655,7 +7655,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "849단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.849: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7664,7 +7664,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "850단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.850: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7673,7 +7673,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "851단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.851: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7682,7 +7682,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "852단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.852: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7691,7 +7691,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "853단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.853: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7700,7 +7700,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "854단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.854: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7709,7 +7709,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "855단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.855: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7718,7 +7718,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "856단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.856: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7727,7 +7727,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "857단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.857: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7736,7 +7736,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "858단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.858: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7745,7 +7745,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "859단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.859: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7754,7 +7754,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "860단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.860: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7763,7 +7763,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "861단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.861: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7772,7 +7772,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "862단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.862: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7781,7 +7781,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "863단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.863: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7790,7 +7790,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "864단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.864: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7799,7 +7799,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "865단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.865: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7808,7 +7808,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "866단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.866: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7817,7 +7817,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "867단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.867: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7826,7 +7826,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "868단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.868: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7835,7 +7835,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "869단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.869: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7844,7 +7844,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "870단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.870: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7853,7 +7853,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "871단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.871: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7862,7 +7862,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "872단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.872: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7871,7 +7871,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "873단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.873: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7880,7 +7880,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "874단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.874: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7889,7 +7889,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "875단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.875: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7898,7 +7898,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "876단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.876: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7907,7 +7907,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "877단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.877: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7916,7 +7916,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "878단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.878: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7925,7 +7925,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "879단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.879: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7934,7 +7934,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "880단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.880: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7943,7 +7943,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "881단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.881: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7952,7 +7952,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "882단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.882: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7961,7 +7961,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "883단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.883: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7970,7 +7970,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "884단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.884: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7979,7 +7979,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "885단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.885: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7988,7 +7988,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "886단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.886: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -7997,7 +7997,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "887단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.887: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8006,7 +8006,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "888단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.888: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8015,7 +8015,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "889단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.889: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8024,7 +8024,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "890단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.890: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8033,7 +8033,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "891단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.891: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8042,7 +8042,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "892단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.892: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8051,7 +8051,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "893단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.893: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8060,7 +8060,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "894단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.894: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8069,7 +8069,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "895단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.895: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8078,7 +8078,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "896단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.896: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8087,7 +8087,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "897단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.897: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8096,7 +8096,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "898단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.898: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8105,7 +8105,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "899단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.899: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8114,7 +8114,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "캐나다 밴프 국립공원 에메랄드빛 모레인 호수",
     "nameEn": "Moraine Lake & Valley of the Ten Peaks, Canada",
     "location": "열 개의 봉우리가 병풍처럼 둘러싼 로키산맥의 찬란한 빙하 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(20, 184, 166, 0.2)"
   },
@@ -8123,7 +8123,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "901단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.901: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8132,7 +8132,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "902단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.902: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8141,7 +8141,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "903단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.903: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8150,7 +8150,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "904단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.904: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8159,7 +8159,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "905단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.905: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8168,7 +8168,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "906단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.906: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8177,7 +8177,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "907단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.907: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8186,7 +8186,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "908단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.908: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8195,7 +8195,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "909단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.909: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8204,7 +8204,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "910단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.910: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8213,7 +8213,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "911단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.911: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8222,7 +8222,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "912단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.912: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8231,7 +8231,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "913단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.913: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8240,7 +8240,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "914단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.914: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8249,7 +8249,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "915단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.915: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8258,7 +8258,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "916단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.916: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8267,7 +8267,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "917단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.917: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8276,7 +8276,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "918단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.918: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8285,7 +8285,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "919단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.919: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8294,7 +8294,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "920단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.920: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8303,7 +8303,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "921단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.921: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8312,7 +8312,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "922단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.922: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8321,7 +8321,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "923단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.923: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8330,7 +8330,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "924단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.924: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8339,7 +8339,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "925단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.925: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8348,7 +8348,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "926단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.926: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8357,7 +8357,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "927단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.927: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8366,7 +8366,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "928단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.928: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8375,7 +8375,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "929단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.929: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8384,7 +8384,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "930단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.930: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8393,7 +8393,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "931단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.931: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8402,7 +8402,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "932단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.932: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8411,7 +8411,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "933단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.933: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8420,7 +8420,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "934단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.934: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8429,7 +8429,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "935단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.935: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8438,7 +8438,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "936단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.936: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8447,7 +8447,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "937단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.937: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8456,7 +8456,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "938단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.938: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8465,7 +8465,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "939단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.939: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8474,7 +8474,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "940단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.940: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8483,7 +8483,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "941단계: 서울 창덕궁 후원 부용지와 주합루",
     "nameEn": "Lv.941: Changdeokgung Palace Secret Garden, Seoul",
     "location": "자연 지형을 거스르지 않고 정자와 연못이 조화된 왕실 정원",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8492,7 +8492,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "942단계: 전북 무주 덕유산 향적봉 설천봉 눈꽃",
     "nameEn": "Lv.942: Deogyusan Snow Covered Ridge, Korea",
     "location": "순백의 상고대가 온 산을 은빛으로 뒤덮는 겨울 설경의 명산",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8501,7 +8501,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "943단계: 경남 합천 가야산 해인사 장경판전",
     "nameEn": "Lv.943: Haeinsa Temple Janggyeong Panjeon, Korea",
     "location": "팔만대장경 목판을 자연 통풍으로 보존해 온 선조들의 지혜",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8510,7 +8510,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "944단계: 전남 순천만 습지 갈대밭과 칠면초 군락",
     "nameEn": "Lv.944: Suncheon Bay Wetland Reed Fields, Korea",
     "location": "황금빛 갈대 물결과 붉은 칠면초가 수놓는 세계 5대 연안습지",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8519,7 +8519,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "945단계: 스위스 알프스 마터호른 봉우리",
     "nameEn": "Lv.945: Matterhorn Peak, Swiss Alps",
     "location": "만년설이 빛나는 알프스의 거봉",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8528,7 +8528,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "946단계: 독일 바이에른 노이슈반슈타인 백조의 성",
     "nameEn": "Lv.946: Neuschwanstein Castle, Germany",
     "location": "동화 속 백조의 성으로 불리는 로맨틱 가도 명소",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8537,7 +8537,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "947단계: 오스트리아 잘츠카머구트 할슈타트 호수",
     "nameEn": "Lv.947: Hallstatt Lake, Austria",
     "location": "호수와 목조 가옥이 어우러진 알프스의 진주",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8546,7 +8546,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "948단계: 슬로베니아 율리안 알프스 블레드 호수 섬",
     "nameEn": "Lv.948: Lake Bled Island, Slovenia",
     "location": "에메랄드 호수 한가운데 떠 있는 성모 승천 성당",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8555,7 +8555,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "949단계: 프랑스 루아르 계곡 샹보르 고성",
     "nameEn": "Lv.949: Château de Chambord, France",
     "location": "르네상스 건축의 극치를 보여주는 왕실의 사냥 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8564,7 +8564,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "950단계: 이탈리아 돌로미티 브라이에스 호수",
     "nameEn": "Lv.950: Lago di Braies, Dolomites, Italy",
     "location": "깎아지른 바위산 아래 청록빛 보석 같은 알프스 호수",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8573,7 +8573,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "951단계: 스위스 융프라우요흐 유럽의 지붕",
     "nameEn": "Lv.951: Jungfraujoch Top of Europe, Switzerland",
     "location": "해발 3,454m 알레치 빙하가 내려다보이는 파노라마",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8582,7 +8582,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "952단계: 체코 프라하 블타바 강 카를교",
     "nameEn": "Lv.952: Charles Bridge & Vltava River, Prague",
     "location": "서른 개의 성인상이 도열한 고딕 양식의 석조 다리",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8591,7 +8591,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "953단계: 크로아티아 플리트비체 국립공원 계단식 호수",
     "nameEn": "Lv.953: Plitvice Lakes National Park, Croatia",
     "location": "16개의 에메랄드 호수와 수많은 폭포가 빚어낸 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8600,7 +8600,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "954단계: 이탈리아 코모 호수 벨라지오 마을",
     "nameEn": "Lv.954: Bellagio, Lake Como, Italy",
     "location": "알프스 산자락 아래 귀족들의 호화 빌라가 즐비한 휴양지",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8609,7 +8609,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "955단계: 스코틀랜드 에든버러 고성 바위 요새",
     "nameEn": "Lv.955: Edinburgh Castle, Scotland, UK",
     "location": "화산암 바위산 위에 우뚝 선 스코틀랜드의 심장",
-    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8618,7 +8618,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "956단계: 포르투갈 신트라 페나 국립왕궁",
     "nameEn": "Lv.956: Pena Palace, Sintra, Portugal",
     "location": "낭만주의 양식의 오색찬란한 동화 같은 산상 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8627,7 +8627,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "957단계: 스페인 그라나다 알람브라 궁전",
     "nameEn": "Lv.957: Alhambra Palace, Granada, Spain",
     "location": "아라베스크 문양과 아치형 정원이 매혹적인 이슬람 예술의 정수",
-    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8636,7 +8636,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "958단계: 스위스 라우터브루넨 72개 폭포의 계곡",
     "nameEn": "Lv.958: Lauterbrunnen Valley of 72 Waterfalls",
     "location": "수직 암벽에서 쏟아지는 슈타우프바흐 폭포의 장관",
-    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8645,7 +8645,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "959단계: 이탈리아 아말피 해안 포지타노 마을",
     "nameEn": "Lv.959: Positano, Amalfi Coast, Italy",
     "location": "코발트빛 지중해 절벽을 따라 층층이 채색된 가옥들",
-    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8654,7 +8654,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "960단계: 일본 교토 후시미 이나리 천 개의 토리이",
     "nameEn": "Lv.960: Fushimi Inari Taisha, Kyoto, Japan",
     "location": "산자락을 따라 끝없이 이어지는 붉은 토리이 터널",
-    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8663,7 +8663,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "961단계: 중국 후난성 장가계 국가삼림공원 무릉원",
     "nameEn": "Lv.961: Zhangjiajie National Forest Park, China",
     "location": "영화 아바타의 모티브가 된 기암괴석 기둥들의 비경",
-    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8672,7 +8672,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "962단계: 베트남 꽝닌성 하롱베이 3천 개 석회암 섬",
     "nameEn": "Lv.962: Ha Long Bay, Vietnam",
     "location": "에메랄드 바다 위로 불쑥 솟아오른 기기묘묘한 석회암 카르스트",
-    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8681,7 +8681,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "963단계: 캄보디아 시엠립 앙코르와트 중앙 사원",
     "nameEn": "Lv.963: Angkor Wat Temple, Cambodia",
     "location": "크메르 제국의 건축 미학이 집대성된 세계 최대의 석조 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8690,7 +8690,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "964단계: 미얀마 바간 평원 수천 개의 불탑",
     "nameEn": "Lv.964: Bagan Plain Pagodas, Myanmar",
     "location": "붉은 벽돌 파고다 사이로 아침 안개가 피어오르는 신비의 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8699,7 +8699,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "965단계: 인도네시아 발리 타나롯 해상 사원",
     "nameEn": "Lv.965: Tanah Lot Sea Temple, Bali, Indonesia",
     "location": "거센 파도가 부서지는 바다 바위섬 위에 앉은 힌두 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8708,7 +8708,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "966단계: 중국 쓰촨성 구채구 오색지 호수",
     "nameEn": "Lv.966: Jiuzhaigou Five Flower Lake, China",
     "location": "호수 바닥의 고목과 광물질이 빚어낸 영롱한 무지갯빛 물빛",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8717,7 +8717,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "967단계: 대만 타이베이 지우펀 옛 골목 홍등",
     "nameEn": "Lv.967: Jiufen Old Street Red Lanterns, Taiwan",
     "location": "바다를 내려다보는 비탈길을 따라 붉게 밝혀진 홍등 거리",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8726,7 +8726,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "968단계: 스리랑카 시기리야 고대 사자바위 궁전",
     "nameEn": "Lv.968: Sigiriya Lion Rock Citadel, Sri Lanka",
     "location": "밀림 한가운데 200m 수직 바위 꼭대기에 세워진 공중 왕국",
-    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8735,7 +8735,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "969단계: 인도 자이푸르 하와마할 바람의 궁전",
     "nameEn": "Lv.969: Hawa Mahal Palace of Winds, India",
     "location": "953개의 정교한 격자 창문이 벌집처럼 솟은 분홍빛 사암 궁전",
-    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8744,7 +8744,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "970단계: 네팔 히말라야 안나푸르나 베이스캠프",
     "nameEn": "Lv.970: Annapurna Sanctuary, Himalayas, Nepal",
     "location": "8,000m급 설산 파노라마가 사방을 에워싼 신들의 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8753,7 +8753,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "971단계: 태국 치앙라이 왓 롱 쿤 백색 사원",
     "nameEn": "Lv.971: Wat Rong Khun White Temple, Thailand",
     "location": "순백의 유리와 석고로 극락의 순결함을 묘사한 현대 사원",
-    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8762,7 +8762,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "972단계: 미국 유타 브라이스 캐니언 첨탑 지대",
     "nameEn": "Lv.972: Bryce Canyon Hoodoos Amphitheater, USA",
     "location": "붉고 하얀 첨탑 기둥들이 원형 극장처럼 도열한 침식 지대",
-    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8771,7 +8771,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "973단계: 캐나다 재스퍼 국립공원 아타바스카 빙하",
     "nameEn": "Lv.973: Athabasca Glacier, Jasper, Canada",
     "location": "컬럼비아 빙원에서 흘러내린 거대한 만년설 얼음 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8780,7 +8780,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "974단계: 멕시코 유카탄 치첸이트사 쿠쿨칸 피라미드",
     "nameEn": "Lv.974: Chichen Itza Kukulkan Pyramid, Mexico",
     "location": "춘분과 추분에 뱀의 그림자가 꿈틀대는 마야 천문학의 걸작",
-    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8789,7 +8789,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "975단계: 볼리비아 우유니 소금 사막 세상의 거울",
     "nameEn": "Lv.975: Salar de Uyuni Salt Flats, Bolivia",
     "location": "하늘과 땅의 경계가 사라지는 지상 최대의 백색 거울 평원",
-    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8798,7 +8798,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "976단계: 아르헨티나·브라질 이과수 대폭포 악마의 목구멍",
     "nameEn": "Lv.976: Iguazu Falls Devils Throat",
     "location": "275개의 폭포가 합쳐져 뿜어내는 지구상 가장 거대한 굉음",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8807,7 +8807,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "977단계: 칠레 파타고니아 토레스 델 파이네 삼봉",
     "nameEn": "Lv.977: Torres del Paine Towers, Chile",
     "location": "빙하 호수 위로 칼날처럼 솟구친 세 개의 화강암 봉우리",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8816,7 +8816,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "978단계: 미국 애리조나 앤텔로프 캐니언 빛의 기둥",
     "nameEn": "Lv.978: Antelope Canyon Light Beams, Arizona, USA",
     "location": "부드러운 물결 사암 틈새로 쏟아지는 성스러운 햇살",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8825,7 +8825,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "979단계: 캐나다 밴쿠버 휘슬러 블랙콤 설원",
     "nameEn": "Lv.979: Whistler Blackcomb Mountain, Canada",
     "location": "북미 최고의 스키 리조트를 품은 광활한 침엽수 설원",
-    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8834,7 +8834,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "980단계: 미국 캘리포니아 세쿼이아 국립공원 제너럴 셔먼",
     "nameEn": "Lv.980: General Sherman Tree, Sequoia Park, USA",
     "location": "지구상에서 가장 거대한 부피를 지닌 2,200년 된 거목",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8843,7 +8843,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "981단계: 콜롬비아 카르타헤나 식민지 구시가지 성벽",
     "nameEn": "Lv.981: Cartagena Historic Walled City, Colombia",
     "location": "카리브해를 마주한 부겐빌레아 꽃핀 스페인풍 발코니 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8852,7 +8852,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "982단계: 노르웨이 로포텐 제도 레이네 어촌 마을",
     "nameEn": "Lv.982: Reine, Lofoten Islands, Norway",
     "location": "날카로운 피오르드 산맥 아래 붉은 로르부 가옥들의 정취",
-    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8861,7 +8861,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "983단계: 노르웨이 뤼세피오르드 프레이케스톨렌 뤼세 절벽",
     "nameEn": "Lv.983: Preikestolen Pulpit Rock, Norway",
     "location": "604m 수직 절벽 평평한 바위 위에서 내려다보는 피오르드",
-    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516815231560-8581b3c40e74?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8870,7 +8870,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "984단계: 아이슬란드 레이캬비크 할그림스키르캬 교회",
     "nameEn": "Lv.984: Hallgrimskirkja Church, Iceland",
     "location": "현무암 주상절리를 모티브로 한 북유럽 현대 건축의 백미",
-    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8879,7 +8879,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "985단계: 스웨덴 키루나 북극권 순록 설원",
     "nameEn": "Lv.985: Kiruna Arctic Tundra & Taiga, Sweden",
     "location": "끝없는 눈 덮인 자작나무 숲과 순록 떼의 평화로운 풍경",
-    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8888,7 +8888,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "986단계: 핀란드 로바니에미 산타클로스 중앙 마을",
     "nameEn": "Lv.986: Santa Claus Village, Rovaniemi, Finland",
     "location": "북극선이 가로지르는 동화 같은 크리스마스 눈꽃 마을",
-    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8897,7 +8897,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "987단계: 아이슬란드 스코가포스 무지개 폭포",
     "nameEn": "Lv.987: Skogafoss Rainbow Waterfall, Iceland",
     "location": "60m 높이에서 직포처럼 떨어지며 쌍무지개를 만드는 폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8906,7 +8906,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "988단계: 노르웨이 트롬쇠 북극의 수도 설경",
     "nameEn": "Lv.988: Tromso Arctic Cathedral City, Norway",
     "location": "피오르드 바다를 건너는 다리와 설산이 어우러진 북극 도시",
-    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8915,7 +8915,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "989단계: 모로코 쉐프샤우엔 푸른 골목 마을",
     "nameEn": "Lv.989: Chefchaouen The Blue Pearl, Morocco",
     "location": "리프 산맥 자락에 온통 코발트블루로 칠해진 미로 골목",
-    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8924,7 +8924,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "990단계: 터키 파묵칼레 하얀 석회화 단구 온천",
     "nameEn": "Lv.990: Pamukkale Travertine Terraces, Turkey",
     "location": "눈부신 백색 석회암 계단 위로 고인 담청색 천연 온천수",
-    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8933,7 +8933,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "991단계: 남아프리카공화국 케이프타운 테이블 마운틴",
     "nameEn": "Lv.991: Table Mountain, Cape Town, South Africa",
     "location": "대서양과 인도양이 만나는 테이블 모양의 평평한 암벽산",
-    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8942,7 +8942,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "992단계: 탄자니아 세렝게티 국립공원 야생의 평원",
     "nameEn": "Lv.992: Serengeti National Park Savanna, Tanzania",
     "location": "수백만 마리 누 떼가 지평선을 가르는 지구 최후의 야생",
-    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#14b8a6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8951,7 +8951,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "993단계: 잠비아·짐바브웨 빅토리아 폭포 천둥 치는 연기",
     "nameEn": "Lv.993: Victoria Falls Mosi-oa-Tunya",
     "location": "1.7km 폭의 잠베지 강이 협곡으로 곤두박질치는 대폭포",
-    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#0ea5e9",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8960,7 +8960,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "994단계: 오만 와디 샵 에메랄드 협곡 오아시스",
     "nameEn": "Lv.994: Wadi Shab Canyon Oasis, Oman",
     "location": "황량한 사막 계곡 깊숙이 숨겨진 맑고 푸른 천연 동굴 수영장",
-    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#10b981",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8969,7 +8969,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "995단계: 이집트 아부심벨 람세스 2세 거대 신전",
     "nameEn": "Lv.995: Abu Simbel Temples, Egypt",
     "location": "나세르 호숫가 사암 절벽에 조각된 거대한 파라오 석상들",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f59e0b",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8978,7 +8978,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "996단계: 제주도 성산일출봉 푸른 분화구 바다",
     "nameEn": "Lv.996: Seongsan Ilchulbong, Jeju Island, Korea",
     "location": "푸른 바다 위로 우뚝 솟은 거대한 왕관 모양의 수성화산구",
-    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#ec4899",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8987,7 +8987,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "997단계: 경북 경주 토함산 불국사 청운교 백운교",
     "nameEn": "Lv.997: Bulguksa Temple, Gyeongju, Korea",
     "location": "신라 불교 예술의 정수를 간직한 천년 고찰의 석조 계단",
-    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#8b5cf6",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -8996,7 +8996,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "998단계: 강원도 설악산 국립공원 공룡능선 암봉",
     "nameEn": "Lv.998: Seoraksan Dinosaur Ridge, Korea",
     "location": "하늘을 찌를 듯 솟은 기암괴석과 운해가 춤추는 설악의 명봉",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#06b6d4",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -9005,7 +9005,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "999단계: 전남 담양 메타세쿼이아 가로수길",
     "nameEn": "Lv.999: Damyang Metasequoia Tree Road, Korea",
     "location": "울창한 초록 터널이 길게 뻗은 이국적이고 싱그러운 숲길",
-    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1524492417138-4ce6883b2767?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#f97316",
     "ambientColor": "rgba(255, 255, 255, 0.15)"
   },
@@ -9014,7 +9014,7 @@ export const WORLD_1000_THEMES: Record<number, GameTheme> = {
     "nameKo": "초월의 궤도 · 우주에서 본 푸른 지구",
     "nameEn": "Earth from Orbit & Aurora (Lv.1000 Milestone)",
     "location": "1,000단계 대기록 달성! 전 세계 모든 지상 명소를 정복하고 마침내 우주에서 내려다보는 아름다운 지구 요람",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1080&q=70",
     "accentColor": "#38bdf8",
     "ambientColor": "rgba(56, 189, 248, 0.25)"
   }
