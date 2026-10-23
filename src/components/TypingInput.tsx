@@ -17,6 +17,9 @@ interface TypingInputProps {
   onUseUndoClick: () => void;
   onUseShuffleClick: () => void;
   compact?: boolean; // 키보드가 올라왔을 때 얇은 한 줄 모드
+  levelInfo?: { level: number; cleared: number; target: number; lives: number };
+  onSwitchToTouch?: () => void; // 터치 모드(글자 조각 누르기)로 바꾸기
+  onTogglePause?: () => void;
 }
 
 export const TypingInput: React.FC<TypingInputProps> = ({
@@ -32,6 +35,9 @@ export const TypingInput: React.FC<TypingInputProps> = ({
   onUseUndoClick,
   onUseShuffleClick,
   compact = false,
+  levelInfo,
+  onTogglePause,
+  onSwitchToTouch,
 }) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -99,6 +105,19 @@ export const TypingInput: React.FC<TypingInputProps> = ({
                 : 'border-white/20 focus-within:ring-2 focus-within:ring-cyan-400 focus-within:border-cyan-400'
             }`}
           >
+            {compact && levelInfo && (
+              <button
+                type="button"
+                onPointerDown={keepFocus}
+                onClick={onTogglePause}
+                aria-label="일시정지"
+                className="shrink-0 pl-2 pr-1 flex flex-col items-start leading-none text-[10px] font-bold cursor-pointer"
+              >
+                <span className="text-cyan-300">Lv.{levelInfo.level} <span className="text-white/60">Ⅱ</span></span>
+                <span className="text-white mt-0.5">{levelInfo.cleared}/{levelInfo.target}</span>
+                <span className="text-rose-400 mt-0.5">{'♥'.repeat(Math.max(0, levelInfo.lives))}</span>
+              </button>
+            )}
             <input
               ref={inputRef}
               type="text"
@@ -113,19 +132,58 @@ export const TypingInput: React.FC<TypingInputProps> = ({
                   ? '초성이나 문장 단어를 치거나, 급할 땐 단어를 아래로 드래그하세요!'
                   : 'Type matching word or drag falling word down to pass!'
               }
-              className={`w-full bg-transparent px-3 ${compact ? 'py-1' : 'py-2'} text-base sm:text-lg font-bold text-white placeholder-slate-400 outline-none`}
+              className={`w-full bg-transparent ${compact ? 'px-2 py-0.5' : 'px-3 py-2'} text-base sm:text-lg font-bold text-white placeholder-slate-400 outline-none`}
               autoFocus
               autoComplete="off"
               autoCorrect="off"
               spellCheck="false"
             />
 
+            {/* 압축 모드: 아이템 3개를 입력창 안 오른쪽에 작게 */}
+            {compact && (
+              <div className="flex items-center gap-1 shrink-0">
+                {[
+                  { key: 'undo', count: inventory.undoSlow, onClick: onUseUndoClick, icon: <UndoArrowIcon className="w-5 h-5" />, label: '되돌리기' },
+                  { key: 'wand', count: inventory.dragWand, onClick: onUseWandClick, icon: <MagicWandIcon className="w-5 h-5" />, label: '드래그권' },
+                  { key: 'shuffle', count: inventory.shuffle, onClick: onUseShuffleClick, icon: <ShuffleArrowsIcon className="w-5 h-5" />, label: '쉬운셔플' },
+                ].map((it) => (
+                  <button
+                    key={it.key}
+                    type="button"
+                    onPointerDown={keepFocus}
+                    onClick={it.onClick}
+                    disabled={it.count <= 0 || !isPlaying}
+                    aria-label={it.label}
+                    className="relative w-7 h-7 rounded-lg bg-white/5 border border-white/15 flex items-center justify-center disabled:opacity-40 cursor-pointer"
+                  >
+                    {it.icon}
+                    <span className="absolute -top-1.5 -right-1.5 min-w-3.5 h-3.5 px-0.5 rounded-full bg-amber-400 text-slate-950 text-[8px] font-black flex items-center justify-center">
+                      {it.count}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {onSwitchToTouch && (
+              <button
+                type="button"
+                onPointerDown={keepFocus}
+                onClick={onSwitchToTouch}
+                aria-label="터치 모드로 바꾸기"
+                title="터치 모드 (글자 조각 누르기)"
+                className="shrink-0 w-8 h-8 rounded-lg bg-white/5 border border-white/15 text-base flex items-center justify-center cursor-pointer"
+              >
+                👆
+              </button>
+            )}
+
             {/* Submit Button */}
             <button
               type="submit"
               onPointerDown={keepFocus}
               disabled={!value.trim() || !isPlaying}
-              className={`flex items-center gap-1.5 ${compact ? 'px-3 py-1.5' : 'px-4 py-2'} rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 disabled:opacity-30 disabled:pointer-events-none text-white font-bold text-xs shadow-md shadow-cyan-500/30 transition-all active:scale-95 cursor-pointer shrink-0`}
+              className={`flex items-center gap-1.5 ${compact ? 'px-2 py-1.5' : 'px-4 py-2'} rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 disabled:opacity-30 disabled:pointer-events-none text-white font-bold text-xs shadow-md shadow-cyan-500/30 transition-all active:scale-95 cursor-pointer shrink-0`}
             >
               <span className="hidden sm:inline">입력</span>
               <CornerDownLeft className="w-4 h-4" />
@@ -134,7 +192,18 @@ export const TypingInput: React.FC<TypingInputProps> = ({
         </form>
 
         {/* 3 Signature Power-Up Items Bar (압축 모드: 입력창 위 오른쪽에 세로로) */}
-        <div className={compact ? 'absolute right-2 bottom-full mb-2 flex flex-col gap-1.5' : 'flex items-center gap-2 shrink-0'}>
+        <div className={compact ? 'hidden' : 'flex items-center gap-2 shrink-0'}>
+          {compact && onTogglePause && (
+            <button
+              type="button"
+              onPointerDown={keepFocus}
+              onClick={onTogglePause}
+              aria-label="일시정지"
+              className="p-1 rounded-xl glass-panel border border-white/20 text-white flex items-center justify-center"
+            >
+              <span className="w-6 h-6 flex items-center justify-center text-sm font-black">Ⅱ</span>
+            </button>
+          )}
           {/* Undo / Push Up */}
           <button
             type="button"

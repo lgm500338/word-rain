@@ -7,6 +7,7 @@ interface FallingWordsAreaProps {
   currentInput: string;
   dragWandCount: number;
   onDragPassWord: (word: FallingWord) => void;
+  compact?: boolean; // 키보드가 올라왔을 때 작은 카드
 }
 
 export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
@@ -14,6 +15,7 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
   currentInput,
   dragWandCount,
   onDragPassWord,
+  compact = false,
 }) => {
   const [draggingId, setDraggingId] = useState<string | null>(null);
   const [dragStartY, setDragStartY] = useState<number>(0);
@@ -55,7 +57,7 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
       
       {/* Danger Line / Bottom Shield */}
       <div className="absolute top-[95%] left-0 right-0 h-1 bg-gradient-to-r from-rose-500/0 via-rose-500/45 to-rose-500/0 shadow-[0_0_15px_rgba(244,63,94,0.6)] pointer-events-none">
-        <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-rose-950/85 border border-rose-500/35 text-[10px] text-rose-200 font-bold uppercase tracking-widest backdrop-blur-sm">
+        <div className={`${compact ? 'hidden' : ''} absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-rose-950/85 border border-rose-500/35 text-[10px] text-rose-200 font-bold uppercase tracking-widest backdrop-blur-sm`}>
           방어선 (DEFENSE LINE)
         </div>
       </div>
@@ -85,14 +87,14 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
               dragWandCount > 0 ? 'pointer-events-auto cursor-grab active:cursor-grabbing' : 'pointer-events-none'
             } ${isDraggingThis ? 'z-50 scale-110' : 'transition-all duration-75'}`}
             style={{
-              left: `clamp(72px, ${word.x}%, calc(100% - 72px))`,
+              left: `clamp(${compact ? 48 : 72}px, ${word.x}%, calc(100% - ${compact ? 48 : 72}px))`,
               top: `${Math.max(0, word.y)}%`,
               // 처음엔 카드 위쪽이 화면 맨 위에, 방어선(95%)에서는 카드 아래쪽이 방어선에 닿도록
               transform: `translate(-50%, calc(${-(Math.min(95, Math.max(0, word.y)) / 95) * 100}% + ${isDraggingThis ? dragOffsetY : 0}px))`,
             }}
           >
             <div
-              className={`group relative px-4 py-2.5 rounded-2xl whitespace-nowrap flex flex-col items-center justify-center transition-all duration-150 backdrop-blur-md shadow-xl ${
+              className={`group relative ${compact ? 'px-2.5 py-1 rounded-xl' : 'px-4 py-2.5 rounded-2xl'} whitespace-nowrap flex flex-col items-center justify-center transition-all duration-150 backdrop-blur-md shadow-xl ${
                 isDraggingThis
                   ? 'bg-amber-500/90 border-2 border-yellow-200 text-slate-950 shadow-[0_0_25px_rgba(251,191,36,0.9)]'
                   : isCritical
@@ -114,7 +116,7 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
 
               {/* Main Prompt (초성 / Blank Skeleton) */}
               <div
-                className={`text-2xl sm:text-3xl font-black tracking-wider font-mono-code transition-colors ${
+                className={`${compact ? 'text-lg' : 'text-2xl sm:text-3xl'} font-black tracking-wider font-mono-code transition-colors ${
                   isDraggingThis
                     ? 'text-slate-950'
                     : isCritical
@@ -137,7 +139,7 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
 
               {/* Canonical hint & examples hint */}
               <div
-                className={`mt-0.5 text-[11px] font-medium flex items-center gap-1 ${
+                className={`mt-0.5 ${compact ? 'text-[10px] leading-tight' : 'text-[11px]'} font-medium flex items-center gap-1 ${
                   isDraggingThis ? 'text-slate-900 font-bold' : 'text-slate-300/90'
                 }`}
               >

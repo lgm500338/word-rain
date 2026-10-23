@@ -68,7 +68,7 @@ export function matchKoreanInput(
   customAccepted?: string[],
   canonicalExample?: string
 ): KoreanMatchResult {
-  const cleanInput = input.trim();
+  const cleanInput = input.trim().replace(/\s+/g, ' ');
   const cleanTarget = targetPrompt.trim();
 
   if (!cleanInput || !cleanTarget) {
@@ -83,9 +83,9 @@ export function matchKoreanInput(
   }
 
   // 2. Chosung extraction
-  const inputChosung = getChosung(cleanInput);
+  const inputChosung = getChosung(cleanInput).replace(/\s/g, ''); // 띄어쓰기는 초성 비교에서 빼기
   const strippedWord = stripParticle(cleanInput);
-  const strippedInputChosung = getChosung(strippedWord);
+  const strippedInputChosung = getChosung(strippedWord).replace(/\s/g, '');
 
   const barePrompt = cleanTarget.replace(/[\[\]\(\)\s]/g, '');
   const strippedPrompt = stripParticle(barePrompt);

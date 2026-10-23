@@ -1,4 +1,4 @@
-import { EXTRA_WORDS } from '../data/extraWords';
+import { EXTRA_WORDS, COMMON_VERBS } from '../data/extraWords';
 import { POOL_1, POOL_2, POOL_4 } from '../data/wordPool';
 /**
  * Comprehensive Standard Korean Dictionary for Word Rain.
@@ -2930,7 +2930,62 @@ export function getVerbStemCandidates(word: string): string[] {
  * or a valid conjugated verb/adjective modifier form.
  */
 export function isValidKoreanWord(input: string, customAccepted?: string[]): boolean {
-  const clean = input.trim();
+  const clean = input.trim().replace(/\s+/g, ' ');
+  if (!clean) return false;
+
+  // 띄어 쓴 경우 (어제 온, 보러 갔지): 각 단어가 모두 맞으면 인정
+  if (clean.includes(' ')) {
+    return clean.split(' ').every((part) => isValidSingleWord(part, customAccepted));
+  }
+  if (isValidSingleWord(clean, customAccepted)) return true;
+  // 붙여 쓴 두세 단어 (어제온, 보러갔지, 할수있어)
+  return isValidPhrase(clean, customAccepted, 2);
+}
+
+// 띄어쓰기 없이 붙여 쓴 말을 앞말 + 뒷말로 나눠서 확인 (어제온, 보러갔지, 할수있어)
+// - 앞말: 일상 단어(조사 붙어도 됨), 부사(잘·못·안·같이…), 이어지는 어미(보러·먹고·와서…), 꾸밈꼴(먹은·할)
+// - 뒷말: 동사·형용사 꼴(온·갔지·먹자)이거나 일상 단어
+// (큰 사전의 낯선 낱말끼리 붙인 아무 글자 조합은 통과되지 않게)
+const CONNECTIVE_ENDS = ['러', '고', '어', '아', '서', '게', '면', '려', '지', '해', '와', '워', '봐', '줘', '며', '니', '야'];
+const LINKING_WORDS = new Set([
+  '잘', '못', '안', '다', '또', '꼭', '막', '더', '덜', '좀', '참', '푹', '딱', '쭉', '늘', '곧', '이미', '아직', '벌써', '같이', '많이', '빨리', '천천히',
+  '어제', '오늘', '내일', '지금', '이제', '아까', '나중', '정말', '진짜', '너무', '아주', '조금', '함께', '혼자', '모두', '다시', '먼저', '얼른', '어서',
+  '자주', '가끔', '그냥', '제일', '가장', '수', '것', '거', '때', '줄', '데', '만큼', '적', '듯', '뻔', '척', '체',
+]);
+
+function isCommonish(w: string): boolean {
+  return isCommonWord(w) || stripEndings(w).some(isCommonWord);
+}
+
+// 일상 동사·형용사의 활용형인지 (온 → 오다, 갔지 → 가다, 먹자 → 먹다, 공부해 → 공부하다)
+function isVerbForm(w: string): boolean {
+  return getLemmaCandidates(w).some(
+    (lemma) =>
+      COMMON_VERBS.has(lemma) ||
+      EXTRA_WORDS.has(lemma) ||
+      (lemma.endsWith('하다') && lemma.length > 2 && isCommonWord(lemma.slice(0, -2)))
+  );
+}
+
+function isValidPhrase(word: string, customAccepted: string[] | undefined, depth: number): boolean {
+  if (depth <= 0 || word.length < 2) return false;
+  for (let i = 1; i < word.length; i++) {
+    const a = word.slice(0, i);
+    const b = word.slice(i);
+    const lastA = splitSyllable(a[a.length - 1]);
+    const aOk =
+      LINKING_WORDS.has(a) ||
+      isCommonish(a) ||
+      (a.length >= 2 && CONNECTIVE_ENDS.includes(a[a.length - 1]) && isVerbForm(a)) ||
+      (lastA !== null && (lastA[2] === 4 || lastA[2] === 8) && isVerbForm(a)); // 먹은, 할, 온
+    if (!aOk) continue;
+    const bOk = isVerbForm(b) || isCommonish(b) || isValidPhrase(b, customAccepted, depth - 1);
+    if (bOk) return true;
+  }
+  return false;
+}
+
+function isValidSingleWord(clean: string, customAccepted?: string[]): boolean {
   if (!clean) return false;
 
   // 1. Check against word-specific custom accepted list (if provided)
@@ -3124,6 +3179,7 @@ function getLemmaCandidates(word: string): string[] {
 
 // 동사·형용사 어미 (긴 것부터)
 const VERB_ENDINGS = [
+  '으면서', '으세요', '으러', '으려', '으면', '으니', '으며', '으라', '으셨', '으시',
   '아주세요', '어주세요', '아줄게요', '어줄게요', '아줄게', '어줄게', '아줄래', '어줄래', '아줬어', '어줬어', '아줘', '어줘', '아주자', '어주자',
   '아볼게', '어볼게', '아봐', '어봐', '볼게', '볼래', '봐요', '줄게', '줄래', '줘요', '줘', '을게요', '을래요', '을게', '을래', '을까', '래요', '게요', '래', '까',
   '었어요', '았어요', '였어요', '했어요', '습니다', '세요', '어요', '아요', '여요', '는데', '지만', '어서', '아서', '도록',
@@ -3135,7 +3191,7 @@ const VERB_ENDINGS = [
 const ONE_SYLLABLE_PARTS = new Set(
   ('닭 집 점 방 길 국 밥 차 물 불 꽃 눈 비 산 강 돈 옷 책 빵 술 손 발 배 말 소 개 새 잠 꿈 맛 빛 봄 밤 낮 해 달 별 땅 ' +
    '금 은 공 왕 문 창 벽 탑 섬 숲 논 밭 떡 죽 탕 전 김 콩 팥 쌀 감 귤 무 파 간 실 관 원 장 판 표 팀 컵 폰 앱 쇼 펜 ' +
-   '볼 팬 룸 숍 샵 쌈 면 국 회 알 털 뿔 꼬리 철 돌 흙 볕 굴 게 젓 즙 차 칼 솥 병 통 줄 끈 띠 판 판 밥 반 층 칸 ' +
+   '값 비 세 료 용 철 날 때 쪽 편 끼 상 감 거리 볼 팬 룸 숍 샵 쌈 면 국 회 알 털 뿔 꼬리 철 돌 흙 볕 굴 게 젓 즙 차 칼 솥 병 통 줄 끈 띠 판 판 밥 반 층 칸 ' +
    '역 항 교 과 반 대 중 소 신 구 남 북 동 서 앞 뒤 옆 위 속 겉 안 밖 끝 첫 막 새 헌 큰 작').split(/\s+/)
 );
 

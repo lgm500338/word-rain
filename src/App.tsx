@@ -24,6 +24,7 @@ import { ENGLISH_STANDALONE_WORDS } from './data/englishData';
 import { sounds } from './utils/sound';
 import { Header } from './components/Header';
 import { FallingWordsArea } from './components/FallingWordsArea';
+import { TouchPad } from './components/TouchPad';
 import { TypingInput } from './components/TypingInput';
 import { LevelSelectModal } from './components/LevelSelectModal';
 import { LevelClearModal } from './components/LevelClearModal';
@@ -34,11 +35,12 @@ import { DailyCheckInModal, DAILY_CHECKIN_STEPS } from './components/DailyCheckI
 
 
 // 카드 폭 추정(px): 초성 글자 수와 예시 단어 길이로 계산
+let compactCards = false; // 키보드가 올라와 카드가 작아졌는지 (App에서 갱신)
 function estimateCardWidth(word: FallingWord): number {
   const isWide = typeof window !== 'undefined' && window.innerWidth >= 640;
-  const promptPx = word.prompt.length * (isWide ? 33 : 27);
-  const examplePx = (word.canonicalExample.length + 3) * 12;
-  return Math.max(promptPx, examplePx) + 36;
+  const promptPx = word.prompt.length * (compactCards ? 20 : isWide ? 33 : 27);
+  const examplePx = (word.canonicalExample.length + 3) * (compactCards ? 11 : 12);
+  return Math.max(promptPx, examplePx) + (compactCards ? 24 : 36);
 }
 
 // 위쪽(아직 덜 내려온) 카드들과 겹치지 않는 가로 위치(%)를 찾음. 없으면 null
@@ -46,7 +48,7 @@ function findFreeX(newWord: FallingWord, existing: FallingWord[]): number | null
   const areaWidth = Math.min(typeof window !== 'undefined' ? window.innerWidth : 1280, 1280);
   const toPct = (px: number) => (px / areaWidth) * 100;
   const newHalf = toPct(estimateCardWidth(newWord) / 2);
-  const minX = Math.max(5, toPct(72), newHalf + toPct(6));
+  const minX = Math.max(5, toPct(compactCards ? 52 : 72), newHalf + toPct(6));
   const maxX = 100 - minX;
   const upper = existing.filter((w) => w.y < 40);
 
@@ -72,6 +74,19 @@ function findFreeX(newWord: FallingWord, existing: FallingWord[]): number | null
 export default function App() {
   // Game Configuration & Language
   const [language, setLanguage] = useState<Language>('ko');
+  // 입력 방식: 터치(글자 조각 누르기) / 타자. 폰은 처음에 터치 모드
+  const [inputMode, setInputMode] = useState<'touch' | 'type'>(() => {
+    try {
+      const saved = localStorage.getItem('wordrain_input_mode');
+      if (saved === 'touch' || saved === 'type') return saved;
+    } catch {}
+    return typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches ? 'touch' : 'type';
+  });
+  useEffect(() => {
+    try {
+      localStorage.setItem('wordrain_input_mode', inputMode);
+    } catch {}
+  }, [inputMode]);
   // 저장된 진행 상황: 마지막으로 하던 레벨, 지금까지 도달한 가장 높은 레벨
   const readSavedNumber = (key: string): number => {
     try {
@@ -270,6 +285,7 @@ export default function App() {
     };
   }, []);
   const compact = isKeyboardOpen;
+  compactCards = compact;
 
   // 이번 레벨에서 지금까지 떨어뜨린 단어 수 (레벨 목표 개수만큼만 떨어뜨림)
   const spawnedCountRef = useRef<number>(0);
@@ -375,7 +391,9 @@ export default function App() {
 
     const spawnTimer = setInterval(() => {
       setFallingWords((prevWords) => {
-        const maxOnScreen = Math.min(6, 3 + Math.floor(level / 15));
+        // 폰(터치 화면)에서는 화면이 좁아서 동시에 3개까지만
+        const isPhone = typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches;
+        const maxOnScreen = isPhone ? 3 : Math.min(6, 3 + Math.floor(level / 15));
         if (prevWords.length >= maxOnScreen) return prevWords;
         // 이번 레벨 단어를 다 떨어뜨렸으면 더 이상 만들지 않음
         if (spawnedCountRef.current >= levelConfig.wordsRequired) return prevWords;
@@ -940,13 +958,30 @@ export default function App() {
           currentInput={currentInput}
           dragWandCount={inventory.dragWand}
           onDragPassWord={handleDragPassWord}
+          compact={compact}
         />
       </main>
 
       {/* Bottom Central Typing Bar */}
       <div className={`relative w-full z-40 ${compact ? 'pb-1 pt-0.5' : 'pb-3.5 pt-1'} flex flex-col items-center`}>
 
-        {/* Central Ergonomic Typing Input Bar + 3 Power-Up Items */}
+        {/* 입력: 터치 모드(한국어) 또는 타자 모드 */}
+        {inputMode === 'touch' && language === 'ko' ? (
+          <TouchPad
+            words={fallingWords}
+            value={currentInput}
+            onChange={setCurrentInput}
+            onSubmit={handleSubmitInput}
+            isPlaying={gameState === 'playing'}
+            inventory={inventory}
+            onUseWandClick={handleUseWandButton}
+            onUseUndoClick={handleUseUndoButton}
+            onUseShuffleClick={handleUseShuffleButton}
+            onSwitchToTyping={() => setInputMode('type')}
+            lastHitNotification={lastHitNotification}
+            failedAlert={failedAlert}
+          />
+        ) : (
         <TypingInput
           value={currentInput}
           onChange={handleInputChange}
@@ -960,7 +995,11 @@ export default function App() {
           onUseUndoClick={handleUseUndoButton}
           onUseShuffleClick={handleUseShuffleButton}
           compact={compact}
+          levelInfo={{ level, cleared: stats.levelWordsCleared, target: stats.levelWordsTarget, lives: stats.lives }}
+          onTogglePause={() => setGameState(gameState === 'playing' ? 'paused' : 'playing')}
+          onSwitchToTouch={language === 'ko' ? () => setInputMode('touch') : undefined}
         />
+        )}
       </div>
 
       {/* Modals */}

@@ -449,3 +449,13 @@ export function spawnNextWord(
     };
   }
 }
+
+/**
+ * 터치 모드용: 같은 초성의 다른 일상 단어 하나 찾기 (창의 단어 +1점 기회)
+ */
+export function findAlternativeWord(chosung: string, exclude: string): string | null {
+  const target = chosung.replace(/\s/g, '');
+  const options = KOREAN_WORD_POOL.filter((w) => w.chosung === target && w.canonical !== exclude);
+  if (options.length === 0) return null;
+  return options[Math.floor(Math.random() * options.length)].canonical;
+}

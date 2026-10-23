@@ -43,47 +43,7 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const progressPercent = Math.min(100, Math.round((stats.levelWordsCleared / stats.levelWordsTarget) * 100));
 
-  if (compact) {
-    return (
-      <header className="w-full z-30 select-none">
-        <div className="max-w-7xl mx-auto px-2 pt-1">
-          <div className="glass-panel rounded-xl px-2.5 py-1 flex items-center justify-between gap-2 border border-white/15 shadow-lg">
-            <div className="flex items-center gap-1 text-cyan-100 text-xs font-black shrink-0">
-              <Zap className="w-3 h-3 text-cyan-400 fill-cyan-400" />
-              Lv.{stats.level}
-            </div>
-            <div className="flex-1 flex items-center gap-1.5 min-w-0">
-              <div className="flex-1 h-1.5 rounded-full bg-slate-800/80 overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-cyan-400 to-emerald-400 transition-all duration-300 rounded-full"
-                  style={{ width: `${progressPercent}%` }}
-                />
-              </div>
-              <span className="text-[11px] font-bold text-white shrink-0">
-                {stats.levelWordsCleared}/{stats.levelWordsTarget}
-              </span>
-            </div>
-            <div className="flex items-center gap-0.5 shrink-0">
-              {Array.from({ length: stats.maxLives }).map((_, i) => (
-                <Heart
-                  key={i}
-                  className={`w-3 h-3 ${i < stats.lives ? 'text-rose-500 fill-rose-500' : 'text-slate-600'}`}
-                />
-              ))}
-            </div>
-            <button
-              onPointerDown={(e) => e.preventDefault()}
-              onClick={onTogglePause}
-              aria-label={isPlaying ? '일시정지' : '계속하기'}
-              className="p-1 rounded-lg bg-white/10 text-white cursor-pointer shrink-0"
-            >
-              {isPlaying ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5" />}
-            </button>
-          </div>
-        </div>
-      </header>
-    );
-  }
+  if (compact) return null; // 키보드가 올라오면 위쪽 바는 숨기고, 레벨·진행도·하트는 입력창 옆에 표시
 
   return (
     <header className="w-full z-30 select-none">
