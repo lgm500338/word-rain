@@ -211,7 +211,7 @@ export const TouchPad: React.FC<TouchPadProps> = ({
               type="button"
               onClick={() => press(t)}
               disabled={!isPlaying}
-              className="h-11 rounded-xl bg-slate-800/90 border border-white/15 text-white text-xl font-black active:scale-90 active:bg-cyan-600 transition-transform disabled:opacity-40 cursor-pointer"
+              className="h-10 rounded-xl bg-slate-800/90 border border-white/15 text-white text-lg font-black active:scale-90 active:bg-cyan-600 transition-transform disabled:opacity-40 cursor-pointer"
             >
               {t}
             </button>

@@ -906,7 +906,7 @@ export default function App() {
 
   return (
     <div
-      className="relative w-screen h-screen overflow-hidden flex flex-col justify-between font-sans"
+      className="relative w-screen h-screen h-[100dvh] overflow-hidden flex flex-col justify-between font-sans"
       style={viewportHeight ? { height: viewportHeight } : undefined}
     >
       
