@@ -453,19 +453,6 @@ export function spawnNextWord(
 /**
  * 터치 모드용: 같은 초성의 다른 일상 단어 하나 찾기 (창의 단어 +1점 기회)
  */
-/** 같은 초성의 다른 예시 단어를 여러 개 고름 (카드에 함께 보여주기용) */
-export function findAlternativeWords(chosung: string, exclude: string, count: number): string[] {
-  const target = chosung.replace(/\s/g, '');
-  const options = [...new Set(
-    KOREAN_WORD_POOL.filter((w) => w.chosung === target && w.canonical !== exclude).map((w) => w.canonical)
-  )];
-  for (let i = options.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [options[i], options[j]] = [options[j], options[i]];
-  }
-  return options.slice(0, count);
-}
-
 export function findAlternativeWord(chosung: string, exclude: string): string | null {
   const target = chosung.replace(/\s/g, '');
   const options = KOREAN_WORD_POOL.filter((w) => w.chosung === target && w.canonical !== exclude);

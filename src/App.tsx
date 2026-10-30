@@ -9,8 +9,8 @@ import {
   PlayerInventory,
   RewardStep,
 } from './types/game';
-import { getLevelConfig, spawnNextWord, findAlternativeWords } from './utils/levelManager';
-import { matchKoreanInput, stripParticle } from './utils/hangul';
+import { getLevelConfig, spawnNextWord } from './utils/levelManager';
+import { matchKoreanInput } from './utils/hangul';
 import { matchEnglishInput } from './utils/english';
 import { loadFullKoreanDictionary } from './utils/koreanDictionary';
 import { isRestrictedInput } from './utils/profanityFilter';
@@ -39,10 +39,7 @@ let compactCards = false; // 키보드가 올라와 카드가 작아졌는지 (A
 function estimateCardWidth(word: FallingWord): number {
   const isWide = typeof window !== 'undefined' && window.innerWidth >= 640;
   const promptPx = word.prompt.length * (compactCards ? 20 : isWide ? 33 : 27);
-  const ex = [word.canonicalExample, ...(word.extraExamples || [])];
-  const line1 = ex.slice(0, 2).join(' · ').length + 3;
-  const line2 = ex.slice(2).join(' · ').length;
-  const examplePx = Math.max(line1, line2) * (compactCards ? 10 : 11);
+  const examplePx = (word.canonicalExample.length + 3) * (compactCards ? 11 : 12);
   return Math.max(promptPx, examplePx) + (compactCards ? 24 : 36);
 }
 
@@ -410,11 +407,6 @@ export default function App() {
           recentSentenceTemplateIdsRef.current
         );
 
-        // 예시 단어를 더 다양하게: 같은 초성의 다른 단어를 최대 3개 더 보여줌 (한국어만)
-        if (language === 'ko' && !newWord.extraExamples) {
-          newWord.extraExamples = findAlternativeWords(newWord.prompt, newWord.canonicalExample, 3);
-        }
-
         // 자리 확인: 위쪽 카드들과 겹치지 않는 가로 위치를 찾고, 없으면 이번엔 쉬고 다음에 떨어뜨림
         const placedX = findFreeX(newWord, prevWords);
         if (placedX === null) return prevWords;
@@ -712,14 +704,6 @@ export default function App() {
           break;
         }
       }
-    }
-
-    // 카드에 보여준 예시 단어(추가 예시 포함)를 그대로 쳤으면 0점
-    if (matchedWord && isCreative) {
-      const shown = [matchedWord.canonicalExample, ...(matchedWord.extraExamples || [])].map((w) => w.toLowerCase());
-      const typed = rawInput.toLowerCase();
-      const typedStripped = language === 'ko' ? stripParticle(rawInput) : typed;
-      if (shown.includes(typed) || shown.includes(typedStripped)) isCreative = false;
     }
 
     if (matchedWord) {

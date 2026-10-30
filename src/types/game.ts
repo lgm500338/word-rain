@@ -7,7 +7,6 @@ export interface FallingWord {
   prompt: string;               // Displayed text (e.g. 'ㅅㄱ', 'ㅇㄹ', 'g_', 'h________')
   canonicalExample: string;     // One typical example (e.g. '사과', '여름', 'hospital')
   acceptedExamples?: string[];  // Sample of accepted words
-  extraExamples?: string[];     // 카드에 함께 보여주는 다른 예시 단어들 (그대로 치면 0점)
   role: WordRole;
   sentenceId?: string;          // Links to a sentence chain if part of one
   sentenceSlotIndex?: number;   // 0-indexed position in sentence
