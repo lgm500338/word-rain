@@ -272,15 +272,18 @@ export default function App() {
       fullHeight = Math.max(fullHeight, vv.height);
       const open = vv.height < fullHeight * 0.78;
       setIsKeyboardOpen(open);
-      setViewportHeight(open ? vv.height : null);
+      // 폰에서는 항상 실제로 보이는 높이에 맞춤 (주소창·하단 버튼에 글자판이 가려지지 않게)
+      setViewportHeight(Math.min(vv.height, window.innerHeight));
       if (open) window.scrollTo(0, 0);
     };
     const onRotate = () => { fullHeight = 0; setTimeout(update, 300); };
     vv.addEventListener('resize', update);
+    window.addEventListener('resize', update);
     window.addEventListener('orientationchange', onRotate);
     update();
     return () => {
       vv.removeEventListener('resize', update);
+      window.removeEventListener('resize', update);
       window.removeEventListener('orientationchange', onRotate);
     };
   }, []);
