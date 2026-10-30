@@ -60,7 +60,7 @@ export const TouchPad: React.FC<TouchPadProps> = ({
     const needed: string[] = [];
     for (const w of words) {
       for (const ch of w.canonicalExample.replace(/\s/g, '')) needed.push(ch);
-      const alt = findAlternativeWord(w.prompt, w.canonicalExample);
+      const alt = w.extraExamples?.[0] ?? findAlternativeWord(w.prompt, w.canonicalExample);
       if (alt) for (const ch of alt) needed.push(ch);
     }
     // 정답 글자는 꼭 넣고, 남는 칸은 같은 초성의 헷갈리는 글자 위주로 채움

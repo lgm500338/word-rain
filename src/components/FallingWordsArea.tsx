@@ -138,20 +138,27 @@ export const FallingWordsArea: React.FC<FallingWordsAreaProps> = ({
               </div>
 
               {/* Canonical hint & examples hint */}
-              <div
-                className={`mt-0.5 ${compact ? 'text-[10px] leading-tight' : 'text-[11px]'} font-medium flex items-center gap-1 ${
-                  isDraggingThis ? 'text-slate-900 font-bold' : 'text-slate-300/90'
-                }`}
-              >
-                {isDraggingThis ? (
-                  <span>👇 아래로 당겨서 패스! ({word.canonicalExample})</span>
-                ) : (
-                  <>
-                    <span className="opacity-80">예:</span>
-                    <span className="font-semibold text-white/95">{word.canonicalExample}</span>
-                  </>
-                )}
-              </div>
+              {isDraggingThis ? (
+                <div className={`mt-0.5 ${compact ? 'text-[10px] leading-tight' : 'text-[11px]'} text-slate-900 font-bold`}>
+                  👇 아래로 당겨서 패스! ({word.canonicalExample})
+                </div>
+              ) : (() => {
+                const examples = [word.canonicalExample, ...(word.extraExamples || [])];
+                const line1 = examples.slice(0, 2);
+                const line2 = examples.slice(2);
+                const size = compact ? 'text-[9px]' : 'text-[10px]';
+                return (
+                  <div className={`mt-0.5 ${size} leading-tight font-medium text-slate-300/90 flex flex-col items-center`}>
+                    <div className="flex items-center gap-1">
+                      <span className="opacity-80">예:</span>
+                      <span className="font-semibold text-white/95">{line1.join(' · ')}</span>
+                    </div>
+                    {line2.length > 0 && (
+                      <div className="font-semibold text-white/85">{line2.join(' · ')}</div>
+                    )}
+                  </div>
+                );
+              })()}
 
               {/* Particle indicator or drop shadow tail */}
               <div
